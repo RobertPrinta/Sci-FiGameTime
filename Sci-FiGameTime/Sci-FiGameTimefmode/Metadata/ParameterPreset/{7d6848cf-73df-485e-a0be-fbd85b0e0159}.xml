@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7d6848cf-73df-485e-a0be-fbd85b0e0159}">
+		<property name="name">
+			<value>Elevation Y axen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{aa4f8b37-8d55-4c11-85f4-8a895e1dcaaf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{71a89025-3da9-456b-a864-f80c7cb88865}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{71a89025-3da9-456b-a864-f80c7cb88865}">
+		<property name="maximum">
+			<value>10</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

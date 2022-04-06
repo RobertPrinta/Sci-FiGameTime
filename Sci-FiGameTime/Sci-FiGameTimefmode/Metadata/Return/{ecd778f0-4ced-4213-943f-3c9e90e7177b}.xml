@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{ecd778f0-4ced-4213-943f-3c9e90e7177b}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
+		<property name="name">
+			<value>Canion Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{bbc6d2e6-71af-43bb-a3a0-02cd1b20387d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{a97a9895-91e4-457d-a341-8bd5123aaf9a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5125eb80-5816-4c8f-815e-598bf036200f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{bbc6d2e6-71af-43bb-a3a0-02cd1b20387d}">
+		<relationship name="effects">
+			<destination>{902aeeb6-bebe-40e5-b588-5d124ef1c863}</destination>
+			<destination>{c2ed7c74-58b5-4b4e-99e0-4afe698c4690}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{a97a9895-91e4-457d-a341-8bd5123aaf9a}" />
+	<object class="ConvolutionReverbEffect" id="{902aeeb6-bebe-40e5-b588-5d124ef1c863}">
+		<property name="endFrame">
+			<value>26592</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{44443354-f692-4ea7-9b68-f7ef401311ca}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{c2ed7c74-58b5-4b4e-99e0-4afe698c4690}" />
+</objects>
