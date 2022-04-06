@@ -310,7 +310,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{467c509f-0d4f-4c2e-af8e-dc04f41a7d20}">
 		<relationship name="effects">
-			<destination>{67aa4f46-c9bc-4cdd-a037-9560cb6c532e}</destination>
 			<destination>{8733c84d-5549-4617-a120-0361d307be76}</destination>
 			<destination>{e9888480-9ef9-44ba-91bf-678163f8e47e}</destination>
 		</relationship>
@@ -461,22 +460,8 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{636b610d-aefc-4ac8-93aa-6286a6f1b9c6}" />
-	<object class="MixerSend" id="{67aa4f46-c9bc-4cdd-a037-9560cb6c532e}">
-		<property name="inputFormat">
-			<value>2</value>
-		</property>
-		<relationship name="automators">
-			<destination>{0e127209-1ed0-40f7-bb6d-d51c770ce23f}</destination>
-		</relationship>
-		<relationship name="mixerReturn">
-			<destination>{ecd778f0-4ced-4213-943f-3c9e90e7177b}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{8733c84d-5549-4617-a120-0361d307be76}" />
 	<object class="SpatialiserEffect" id="{e9888480-9ef9-44ba-91bf-678163f8e47e}">
-		<property name="distanceRolloffType">
-			<value>3</value>
-		</property>
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
@@ -643,11 +628,6 @@
 		<relationship name="automators">
 			<destination>{113316f3-cfe5-4973-9e28-ea2056014514}</destination>
 		</relationship>
-	</object>
-	<object class="Automator" id="{0e127209-1ed0-40f7-bb6d-d51c770ce23f}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>level</value>
-		</property>
 	</object>
 	<object class="Automator" id="{ac5ea9ed-91c2-47da-be19-4d15473d424f}">
 		<property name="nameOfPropertyBeingAutomated">
