@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6c7c71e8-17c7-4b2d-84cf-decb05781ff3}">
+		<property name="name">
+			<value>WindIntesty</value>
+		</property>
+		<relationship name="folder">
+			<destination>{aa4f8b37-8d55-4c11-85f4-8a895e1dcaaf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f95f2862-5b4a-4531-b21e-306b3b1f7225}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f95f2862-5b4a-4531-b21e-306b3b1f7225}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
