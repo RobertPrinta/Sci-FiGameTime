@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{360de0ed-9370-49ca-a79d-dc06913e68b3}">
+		<property name="assetPath">
+			<value>Music/Zone 3 Carls Midi Luddes Ljud/calle midi scifi gp3_Choir #2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>139.63635416666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
+		</relationship>
+	</object>
+</objects>
