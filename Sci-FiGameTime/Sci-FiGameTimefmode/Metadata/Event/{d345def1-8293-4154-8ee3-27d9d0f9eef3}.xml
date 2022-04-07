@@ -33,6 +33,9 @@
 		<relationship name="timeline">
 			<destination>{0881a60c-0527-47b9-a894-ea53c6cd27bc}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{8e687609-cd1c-4df6-ad9e-86c2500dcddf}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{7e456b49-a8ec-4fed-83bf-d31965822d17}</destination>
 		</relationship>
@@ -92,6 +95,11 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{e31b9bae-f930-4f4f-b125-cb81141a359f}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{8e687609-cd1c-4df6-ad9e-86c2500dcddf}">
+		<relationship name="preset">
+			<destination>{71a89025-3da9-456b-a864-f80c7cb88865}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{aa6d2f8c-b805-4760-9caf-ff3d21bdc98e}">
