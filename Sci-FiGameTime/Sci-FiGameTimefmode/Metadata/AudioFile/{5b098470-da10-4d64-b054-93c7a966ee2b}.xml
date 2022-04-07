@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5b098470-da10-4d64-b054-93c7a966ee2b}">
+		<property name="assetPath">
+			<value>Choir 1- Massivt Reverb.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>138.37837500000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
+		</relationship>
+	</object>
+</objects>
