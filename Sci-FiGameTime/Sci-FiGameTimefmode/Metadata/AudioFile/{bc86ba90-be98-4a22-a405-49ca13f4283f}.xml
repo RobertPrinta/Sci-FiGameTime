@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{bc86ba90-be98-4a22-a405-49ca13f4283f}">
 		<property name="assetPath">
-			<value>falkland_tennis_court_5-0.wav</value>
+			<value>Ir/falkland_tennis_court_5-0.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
