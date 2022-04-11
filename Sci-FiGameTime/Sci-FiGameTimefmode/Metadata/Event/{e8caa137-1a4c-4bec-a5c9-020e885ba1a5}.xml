@@ -540,6 +540,7 @@
 			<destination>{10e8bb50-37d4-43ed-8e01-1f45f9f006a1}</destination>
 			<destination>{deb2f458-081e-410a-a0f3-5c278032b54c}</destination>
 			<destination>{544f5128-3851-4bec-87f3-cccbd5841432}</destination>
+			<destination>{441d0a8b-b642-44e0-959a-49895c91cb90}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{831aa9ca-a16d-4356-9285-cc68dbef9ae9}" />
@@ -580,6 +581,7 @@
 			<destination>{53a83ee2-b5b7-41fe-9111-57b8c92d00a5}</destination>
 			<destination>{dc3d95c0-10bd-4f8b-9cf7-cc24d271cc37}</destination>
 			<destination>{e791667c-f806-4a50-95b8-9e09522c245a}</destination>
+			<destination>{5b92c0ff-23a2-42cb-9079-15b2c4508e33}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e87165ec-1a67-4459-9227-01c4a50b1da8}" />
@@ -857,6 +859,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{544f5128-3851-4bec-87f3-cccbd5841432}" />
+	<object class="SpatialiserEffect" id="{441d0a8b-b642-44e0-959a-49895c91cb90}" />
 	<object class="AutomationPoint" id="{435be570-c981-4c64-9c72-56f78c74b5c6}">
 		<property name="position">
 			<value>9.1891891891891895</value>
@@ -930,6 +933,7 @@
 	</object>
 	<object class="PitchShifterEffect" id="{dc3d95c0-10bd-4f8b-9cf7-cc24d271cc37}" />
 	<object class="MixerBusFader" id="{e791667c-f806-4a50-95b8-9e09522c245a}" />
+	<object class="SpatialiserEffect" id="{5b92c0ff-23a2-42cb-9079-15b2c4508e33}" />
 	<object class="AutomationCurve" id="{86d1eeac-b773-4e0e-8d62-d6bf16fc42c0}">
 		<relationship name="parameter">
 			<destination>{f95f2862-5b4a-4531-b21e-306b3b1f7225}</destination>
