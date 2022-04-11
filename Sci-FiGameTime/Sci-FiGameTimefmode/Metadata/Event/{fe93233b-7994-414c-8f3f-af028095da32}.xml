@@ -403,7 +403,11 @@
 			<destination>{9927896f-6468-492f-ab16-5f7f8a4e67d3}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{9061eabc-b887-4bff-b52c-90523841ae9a}" />
+	<object class="SilenceSound" id="{9061eabc-b887-4bff-b52c-90523841ae9a}">
+		<property name="duration">
+			<value>34000</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{e87ff4fe-724b-4610-9901-416c64692800}">
 		<relationship name="effects">
 			<destination>{9e9073cb-3c9b-493d-9d51-f67502383eb1}</destination>
@@ -449,7 +453,11 @@
 			<destination>{f0b97fda-ccca-424f-a208-374c683dc3a8}</destination>
 		</relationship>
 	</object>
-	<object class="SilenceSound" id="{79dced33-daa5-42ea-a1d4-d8483fd19224}" />
+	<object class="SilenceSound" id="{79dced33-daa5-42ea-a1d4-d8483fd19224}">
+		<property name="duration">
+			<value>34000</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{35b5a3ae-cb91-4449-ba1c-72243fac5886}">
 		<relationship name="effects">
 			<destination>{94101d3f-11bc-49be-b737-7e7cfdfa6a78}</destination>
