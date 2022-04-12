@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4d5d17bb-53e3-4d3a-b8d2-3329132f70c7}">
 		<property name="name">
-			<value>Zone2</value>
+			<value>Zone 2</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
