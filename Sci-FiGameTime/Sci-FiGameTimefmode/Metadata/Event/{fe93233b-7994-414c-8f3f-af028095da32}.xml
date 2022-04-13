@@ -64,7 +64,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{9362a2c9-5724-45de-83a7-4fbe7ef436b7}">
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
 			<value>850</value>
@@ -474,7 +474,7 @@
 	<object class="MixerBusFader" id="{8733c84d-5549-4617-a120-0361d307be76}" />
 	<object class="SpatialiserEffect" id="{e9888480-9ef9-44ba-91bf-678163f8e47e}">
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
 			<value>850</value>
@@ -498,13 +498,10 @@
 	<object class="MixerBusFader" id="{181bcaf7-fc39-4726-9d1e-8e51e9b5e76b}" />
 	<object class="SpatialiserEffect" id="{4e12fff3-1915-45dc-8b95-2ea9eddc5a40}">
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
 			<value>850</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
 		</property>
 		<property name="soundSize">
 			<value>0.349999994</value>
@@ -556,7 +553,7 @@
 	<object class="MixerBusFader" id="{a963a099-ec7d-49f1-aae5-4f579c0d065f}" />
 	<object class="SpatialiserEffect" id="{2e40ff06-3543-40dc-9eb8-8d0febf8836d}">
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>0.100000001</value>
 		</property>
 		<property name="maximumDistance">
 			<value>850</value>
@@ -617,9 +614,6 @@
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
 		</property>
 		<property name="panBlend">
 			<value>0.48999998</value>

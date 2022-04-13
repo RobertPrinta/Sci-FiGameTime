@@ -230,6 +230,9 @@
 		<property name="length">
 			<value>20</value>
 		</property>
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{cbc2a391-92e9-4063-87aa-ecbd87cf55d6}</destination>
 		</relationship>
@@ -288,6 +291,9 @@
 		<property name="length">
 			<value>25.5</value>
 		</property>
+		<property name="volume">
+			<value>-5.5</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{72557fcd-7918-40af-92e6-7fcd2d599e16}</destination>
 		</relationship>
@@ -332,6 +338,9 @@
 		<property name="length">
 			<value>25.5</value>
 		</property>
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{eacc21ab-d713-4303-97a4-abe245a571ff}</destination>
 		</relationship>
@@ -345,6 +354,9 @@
 	<object class="SingleSound" id="{cf825ca2-9132-426b-9b04-78f8f0bea9dc}">
 		<property name="length">
 			<value>25.5</value>
+		</property>
+		<property name="volume">
+			<value>-8.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{ed5001bc-3d2e-4b5a-b4be-607a6912f169}</destination>
