@@ -59,8 +59,11 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{70eeccb6-485c-4717-bc8e-a7286bddc2bb}">
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
 		<property name="maximumDistance">
-			<value>50</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{be335f80-bc83-464c-bcdc-77ab9f405bdd}" />
@@ -103,6 +106,9 @@
 		<property name="volume">
 			<value>-4</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{b6e5efda-553c-471a-af72-870ff655cf55}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{b947a256-6e3a-421a-834c-cd5f2a9cfa8f}</destination>
 		</relationship>
@@ -222,6 +228,26 @@
 			<destination>{be335f80-bc83-464c-bcdc-77ab9f405bdd}</destination>
 		</relationship>
 	</object>
+	<object class="LFOModulator" id="{b6e5efda-553c-471a-af72-870ff655cf55}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="isTempoSync">
+			<value>true</value>
+		</property>
+		<property name="rate">
+			<value>0.109999999</value>
+		</property>
+		<property name="beats">
+			<value>6.4000001</value>
+		</property>
+		<property name="depth">
+			<value>3</value>
+		</property>
+		<property name="direction">
+			<value>98</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{b947a256-6e3a-421a-834c-cd5f2a9cfa8f}">
 		<relationship name="effects">
 			<destination>{1a7d0885-a3e2-4565-af8d-6bd51c1f3dc0}</destination>
@@ -250,8 +276,14 @@
 	<object class="MixerBusPanner" id="{79e7d483-1287-4480-9ece-1025a56c1d9f}" />
 	<object class="MixerBusFader" id="{1a7d0885-a3e2-4565-af8d-6bd51c1f3dc0}" />
 	<object class="SpatialiserEffect" id="{a935c746-31c4-4a1c-88b4-f77ca43a67e1}">
+		<property name="distanceRolloffType">
+			<value>3</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0.5</value>
+		</property>
 		<property name="maximumDistance">
-			<value>50</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{39d3f827-eda3-4e90-9ff1-7b21d0b9d06c}" />
