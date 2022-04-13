@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{44443354-f692-4ea7-9b68-f7ef401311ca}">
+	<object class="AudioFile" id="{2bf9d390-98c7-43b6-8688-938cd0d0e991}">
 		<property name="assetPath">
-			<value>Ir/mh3_000_ortf_48k.wav</value>
+			<value>Vehicle/Motor/Electric motor 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1</value>
+			<value>4.9585416666666671</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
