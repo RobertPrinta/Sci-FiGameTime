@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d400903-c6d7-4de5-a81e-86023a251b2b}">
 		<property name="assetPath">
-			<value>Music/Zone 5 Midi Från Robert/RlChoirRl4.wav</value>
+			<value>Music/Zone RL 3 Midi Från Robert ljud från robert/RlChoirRl4.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

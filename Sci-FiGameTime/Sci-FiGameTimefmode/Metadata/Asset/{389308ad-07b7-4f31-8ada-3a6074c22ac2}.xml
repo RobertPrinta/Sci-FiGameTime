@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="EncodableAsset" id="{fe08f6f2-0abf-4528-a944-def5ba1363fa}">
+	<object class="EncodableAsset" id="{389308ad-07b7-4f31-8ada-3a6074c22ac2}">
 		<property name="assetPath">
-			<value>Music/Zone 1 Reoberts midi scfi Luddes ljud/</value>
+			<value>Music/Zone RL 3 Midi Från Robert ljud från robert/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>

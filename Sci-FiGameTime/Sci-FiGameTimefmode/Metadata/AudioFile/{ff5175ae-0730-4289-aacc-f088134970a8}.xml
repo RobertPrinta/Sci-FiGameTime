@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ff5175ae-0730-4289-aacc-f088134970a8}">
 		<property name="assetPath">
-			<value>Music/Zone 7 Reoberts midi scfi Luddes ljud/roberts midi scifi_pad 2.wav</value>
+			<value>Music/Zone 1 Reoberts midi scfi Luddes ljud/roberts midi scifi_pad 2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
