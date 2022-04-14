@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{8a473c1e-8d87-4a24-ae05-b2f0ef717c9b}">
+		<property name="name">
+			<value>Spatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fee213f9-38dc-40be-88ec-298503d1a345}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{05025f67-78b3-434e-9313-946a30fd20a9}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{05025f67-78b3-434e-9313-946a30fd20a9}">
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+		<property name="soundSize">
+			<value>40</value>
+		</property>
+		<property name="panBlend">
+			<value>0.504999995</value>
+		</property>
+		<property name="userPanDirection">
+			<value>-3.0127871</value>
+		</property>
+		<property name="userPanExtent">
+			<value>187.533661</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{7c99b317-cc65-4f24-bb52-47cb1abe1c45}</destination>
+		</relationship>
+	</object>
+	<object class="LFOModulator" id="{7c99b317-cc65-4f24-bb52-47cb1abe1c45}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>userPanDirection</value>
+		</property>
+		<property name="depth">
+			<value>22.5</value>
+		</property>
+	</object>
+</objects>
