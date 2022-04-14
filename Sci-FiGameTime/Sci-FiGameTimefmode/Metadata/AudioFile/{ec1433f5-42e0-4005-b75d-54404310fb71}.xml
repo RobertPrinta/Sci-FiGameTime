@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ec1433f5-42e0-4005-b75d-54404310fb71}">
 		<property name="assetPath">
-			<value>Music/Ny version calle låt 1/untitled_calle midi scifi gp3_Choir #2.wav</value>
+			<value>Music/Zone 3 Calles Midi Luddes Ljud (Ny, Kort version)/untitled_calle midi scifi gp3_Choir #2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
