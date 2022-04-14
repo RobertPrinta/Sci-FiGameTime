@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{5e859cd1-697e-405a-9546-ac212f9d1774}">
+		<property name="note">
+			<value>Roberts Zone 1</value>
+		</property>
 		<property name="name">
 			<value>ZoneRL1</value>
 		</property>
@@ -9,6 +12,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{11ccf047-5a75-41b4-97fd-23a07585ccba}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{23945405-b276-4101-9323-393f804755bc}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{178e774b-3d20-4915-9c20-df636b6893e4}</destination>
@@ -36,6 +42,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{6e561fd6-b87c-444b-af8b-89a1b45369eb}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{537d771d-349c-40eb-a7ec-b90cb86e8ee0}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{7e456b49-a8ec-4fed-83bf-d31965822d17}</destination>
@@ -119,6 +128,12 @@
 		<relationship name="preset">
 			<destination>{71a89025-3da9-456b-a864-f80c7cb88865}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{537d771d-349c-40eb-a7ec-b90cb86e8ee0}">
+		<property name="key">
+			<value>Zone</value>
+		</property>
+		<property name="value" />
 	</object>
 	<object class="EventMixerMaster" id="{56c0baa8-8113-46ca-8c56-67d93792bf11}">
 		<relationship name="effectChain">

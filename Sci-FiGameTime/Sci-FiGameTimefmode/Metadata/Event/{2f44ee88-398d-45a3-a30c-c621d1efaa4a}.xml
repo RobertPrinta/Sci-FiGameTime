@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2f44ee88-398d-45a3-a30c-c621d1efaa4a}">
+		<property name="note">
+			<value>Play when Player Die </value>
+		</property>
 		<property name="name">
 			<value>Player death</value>
 		</property>
@@ -9,6 +12,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{d8d26732-90a7-47f0-b00b-11a5017220ca}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{b9d2317e-b2ef-47a7-b5f7-be9045116415}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{2494fa68-7c3e-44ed-b78a-4a0c725691f6}</destination>
@@ -33,6 +39,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{4d2a221a-64e1-4524-94d0-851d3c9e7ab8}</destination>
+		</relationship>
+		<relationship name="userProperties">
+			<destination>{4d2614c0-237e-475c-b8b1-c6219b0f1283}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{7e456b49-a8ec-4fed-83bf-d31965822d17}</destination>
@@ -78,6 +87,11 @@
 		<relationship name="modules">
 			<destination>{744d0aaf-8bd7-46c7-b8b0-ffcfd3f261a4}</destination>
 		</relationship>
+	</object>
+	<object class="UserProperty" id="{4d2614c0-237e-475c-b8b1-c6219b0f1283}">
+		<property name="key">
+			<value>Player</value>
+		</property>
 	</object>
 	<object class="EventMixerMaster" id="{4100d134-2daf-4445-a977-69ecca3d8ecf}">
 		<relationship name="effectChain">
