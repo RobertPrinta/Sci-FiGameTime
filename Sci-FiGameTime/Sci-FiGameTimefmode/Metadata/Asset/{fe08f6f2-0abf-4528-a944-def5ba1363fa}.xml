@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{fe08f6f2-0abf-4528-a944-def5ba1363fa}">
 		<property name="assetPath">
-			<value>Music/Zone 1 Reoberts midi scfi Luddes ljud/</value>
+			<value>Music/Zone3/Zone 1 Reoberts midi scfi Luddes ljud/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>

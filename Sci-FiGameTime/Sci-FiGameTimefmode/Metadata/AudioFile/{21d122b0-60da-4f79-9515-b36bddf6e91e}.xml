@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{21d122b0-60da-4f79-9515-b36bddf6e91e}">
 		<property name="assetPath">
-			<value>Music/Zone 2 Ludde Midi Luddes Ljud/scifi achord Ludde_Bass 3.wav</value>
+			<value>Music/Zone1/Zone 2 Ludde Midi Luddes Ljud/scifi achord Ludde_Bass 3.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

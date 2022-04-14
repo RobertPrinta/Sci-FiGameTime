@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{2c9d2cd8-b4e6-44bd-bdf8-b5f0fada2e90}">
 		<property name="assetPath">
-			<value>Music/Zone 3 Calles Midi Luddes Ljud (Ny, Kort version)/</value>
+			<value>Music/Zone2/Zone 3 Calles Midi Luddes Ljud (Ny, Kort version)/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
