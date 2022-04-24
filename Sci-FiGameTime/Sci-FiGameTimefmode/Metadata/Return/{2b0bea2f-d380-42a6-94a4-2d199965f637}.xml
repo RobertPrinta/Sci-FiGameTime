@@ -33,7 +33,7 @@
 			<value>230399</value>
 		</property>
 		<property name="wetLevel">
-			<value>-19</value>
+			<value>-16</value>
 		</property>
 		<relationship name="referenceableData">
 			<destination>{bc86ba90-be98-4a22-a405-49ca13f4283f}</destination>

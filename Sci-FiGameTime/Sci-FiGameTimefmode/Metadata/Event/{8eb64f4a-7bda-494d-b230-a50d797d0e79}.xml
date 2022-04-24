@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8eb64f4a-7bda-494d-b230-a50d797d0e79}">
-		<property name="note" />
 		<property name="name">
 			<value>Player Geting Hurt</value>
 		</property>

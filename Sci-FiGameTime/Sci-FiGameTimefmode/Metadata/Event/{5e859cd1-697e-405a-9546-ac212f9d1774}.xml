@@ -72,8 +72,11 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{941af2b7-0b15-442b-bc80-0381fbfdfb43}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{5d4c59a6-dbb1-4c1f-8ed0-3be765a2da1e}" />
@@ -502,8 +505,11 @@
 	</object>
 	<object class="MixerBusFader" id="{5741dff2-65f3-4a34-a5b2-932b1547b617}" />
 	<object class="SpatialiserEffect" id="{699352c4-1865-4c54-81bb-50606e13809b}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 		<property name="soundSize">
 			<value>0.349999994</value>
@@ -554,8 +560,11 @@
 	</object>
 	<object class="MixerBusFader" id="{dec5ffef-a741-4d74-aad0-32d375f10ebe}" />
 	<object class="SpatialiserEffect" id="{8d428b97-848c-41a8-9dee-8c44ae6422fe}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 		<property name="userStereoSeparation">
 			<value>-98</value>

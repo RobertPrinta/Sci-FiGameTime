@@ -69,6 +69,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2ad8ac63-1ea9-40b0-8ff5-54648b3ad071}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>
@@ -673,6 +676,9 @@
 	</object>
 	<object class="MixerBusFader" id="{cd79da1c-bb09-4122-bd1d-db1056f9da26}" />
 	<object class="SpatialiserEffect" id="{8c3fb248-70e6-442c-913c-c5de14fb8c01}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>
@@ -922,6 +928,9 @@
 	</object>
 	<object class="MixerBusFader" id="{544f5128-3851-4bec-87f3-cccbd5841432}" />
 	<object class="SpatialiserEffect" id="{441d0a8b-b642-44e0-959a-49895c91cb90}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>
@@ -1000,6 +1009,9 @@
 	<object class="PitchShifterEffect" id="{dc3d95c0-10bd-4f8b-9cf7-cc24d271cc37}" />
 	<object class="MixerBusFader" id="{e791667c-f806-4a50-95b8-9e09522c245a}" />
 	<object class="SpatialiserEffect" id="{5b92c0ff-23a2-42cb-9079-15b2c4508e33}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>
@@ -1024,6 +1036,9 @@
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{aff2e380-40b5-42dc-a8fc-a544b83bdbea}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>30</value>
 		</property>

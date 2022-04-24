@@ -12,8 +12,11 @@
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{05025f67-78b3-434e-9313-946a30fd20a9}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>50</value>
 		</property>
 		<property name="soundSize">
 			<value>40</value>
