@@ -9,6 +9,7 @@
 			<destination>{037479c4-8a83-4cae-b014-04abc7ea21b8}</destination>
 			<destination>{23945405-b276-4101-9323-393f804755bc}</destination>
 			<destination>{c45b60a6-087b-41de-9649-94ec493bbab3}</destination>
+			<destination>{cc80dc42-3ee4-46c8-9cd0-826f705cea2d}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{b9d2317e-b2ef-47a7-b5f7-be9045116415}">
@@ -29,6 +30,11 @@
 	<object class="Tag" id="{c45b60a6-087b-41de-9649-94ec493bbab3}">
 		<property name="name">
 			<value>Zone3</value>
+		</property>
+	</object>
+	<object class="Tag" id="{cc80dc42-3ee4-46c8-9cd0-826f705cea2d}">
+		<property name="name">
+			<value>Zone2</value>
 		</property>
 	</object>
 </objects>
