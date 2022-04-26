@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{0847027d-ab12-4543-81ae-f6d6250dbf01}">
+		<property name="assetPath">
+			<value>Music/Zone3/Zone Cj 3 Robert Midi Casses Ljud/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
+		</relationship>
+	</object>
+</objects>

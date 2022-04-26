@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4e60dfdd-6d39-4cb6-92e6-8a506ac17ab4}">
+		<property name="assetPath">
+			<value>Music/Zone3/Zone Cj 3 Robert Midi Casses Ljud/Roberts Bas 1 (consolidated).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>34.59460416666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
+		</relationship>
+	</object>
+</objects>
