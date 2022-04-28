@@ -240,7 +240,7 @@
 	</object>
 	<object class="SingleSound" id="{4c3bb39f-ad4b-4602-b18a-9dcca88815fb}">
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-10.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{403a080c-48b8-4bc8-8389-1e6684769607}</destination>
@@ -267,7 +267,7 @@
 	</object>
 	<object class="SingleSound" id="{1e083947-fd47-4a36-8010-e51ad04422b2}">
 		<property name="volume">
-			<value>-2.5</value>
+			<value>-3.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{cde0da6b-8ff1-4bb9-b875-960454a21091}</destination>
@@ -307,7 +307,7 @@
 	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}" />
 	<object class="CompressorEffect" id="{bb46f035-e3f2-43f3-9d14-6e3cd917affa}">
 		<property name="gain">
-			<value>8.5</value>
+			<value>0.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5ed571a5-22a1-4cb6-b175-ed9169ef6608}" />
