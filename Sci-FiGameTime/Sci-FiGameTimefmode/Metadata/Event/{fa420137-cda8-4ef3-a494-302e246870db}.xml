@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{fa420137-cda8-4ef3-a494-302e246870db}">
+		<property name="note">
+			<value>Ludde Zone1</value>
+		</property>
 		<property name="name">
 			<value>ZoneLF1</value>
 		</property>
@@ -305,7 +308,6 @@
 		<relationship name="effects">
 			<destination>{2a959ece-345e-44b5-98df-0bc397934602}</destination>
 			<destination>{bfcd610d-51a5-4c36-917b-755187ef47fb}</destination>
-			<destination>{901d5a2b-bceb-49e3-86f1-53b5eb51a8e5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b5355079-7c52-4f23-8f48-fb2cb9e44483}" />
@@ -412,11 +414,6 @@
 		</property>
 		<property name="maximumDistance">
 			<value>50</value>
-		</property>
-	</object>
-	<object class="CompressorEffect" id="{901d5a2b-bceb-49e3-86f1-53b5eb51a8e5}">
-		<property name="gain">
-			<value>2</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d76a6137-97ea-4b37-bbad-f5c45953bf7c}" />
