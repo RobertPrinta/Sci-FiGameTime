@@ -62,7 +62,14 @@
 			<destination>{cca95615-555b-45b0-ad67-1b0cfc17837a}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{4beb1a2d-b836-4d73-be34-ec945753e764}" />
+	<object class="EventAutomatableProperties" id="{4beb1a2d-b836-4d73-be34-ec945753e764}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{668cf203-3e94-4430-a5ca-865f61a7c0e1}" />
 	<object class="MarkerTrack" id="{2ef4bbd1-636f-4bae-bd1a-87f589d9c1ba}" />
 	<object class="GroupTrack" id="{8a98b68d-c3f8-45f3-a482-733684a4eb0f}">
@@ -304,7 +311,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{d17ac4bb-fb4f-4c62-88ea-01878b4663a3}" />
 	<object class="MixerBusFader" id="{fb42f130-c8f1-45e4-8971-7a35e42a59bf}" />
-	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}" />
+	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="CompressorEffect" id="{bb46f035-e3f2-43f3-9d14-6e3cd917affa}">
 		<property name="gain">
 			<value>0.5</value>
