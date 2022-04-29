@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{f61bb15c-7ce6-4a7e-a2de-0aba51a3853a}">
+	<object class="AudioFile" id="{884f9512-b39f-4544-aac7-36c5c06288e2}">
 		<property name="assetPath">
-			<value>Vehicle/Cart exit.wav</value>
+			<value>Vehicle/Calle Vehicle/Engine Start.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>4.403645833333333</value>
+			<value>3.0167708333333332</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>

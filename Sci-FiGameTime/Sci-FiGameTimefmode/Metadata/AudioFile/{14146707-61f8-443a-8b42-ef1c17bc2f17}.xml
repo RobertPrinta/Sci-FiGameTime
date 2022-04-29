@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{fa4942d5-907d-49f6-ae3a-44e648fa0348}">
+	<object class="AudioFile" id="{14146707-61f8-443a-8b42-ef1c17bc2f17}">
 		<property name="assetPath">
-			<value>Vehicle/Slide.wav</value>
+			<value>Vehicle/Robert Vehicle/Motor/Electric motor 3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.625</value>
+			<value>4.9585416666666671</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ce26652-0b89-4dc3-bb68-133e53fffc93}</destination>
