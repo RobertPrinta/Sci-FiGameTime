@@ -140,6 +140,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{68863ad7-f781-4f1a-98f0-cc2e5bbace00}" />
 	<object class="MultiSound" id="{c02bf90f-bce6-40d4-9408-e8429282d077}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
@@ -167,6 +170,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{e3b90b6f-183c-4e22-836c-f497f7888674}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
@@ -191,6 +197,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{fbc236ed-8791-4a10-bb28-f311ccba2908}">
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
@@ -221,6 +230,9 @@
 		<property name="triggerProbability">
 			<value>30</value>
 		</property>
+		<property name="start">
+			<value>2</value>
+		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
@@ -247,7 +259,7 @@
 	</object>
 	<object class="LoopRegion" id="{90726509-bae4-4927-9390-30f6effa52b0}">
 		<property name="position">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
@@ -327,6 +339,7 @@
 	<object class="MixerBusEffectChain" id="{c49d4c0c-0c67-448a-a5bf-060130e2e788}">
 		<relationship name="effects">
 			<destination>{eba41a33-9030-4a71-84d1-65e473a80540}</destination>
+			<destination>{1f435836-a3c2-40dd-8b68-46026d7e7c2e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{34f1b389-f851-4125-b276-d5ff19ff0e7d}" />
@@ -357,6 +370,7 @@
 	<object class="MixerBusEffectChain" id="{6a387973-892c-45ff-9ca1-6db59fa88aec}">
 		<relationship name="effects">
 			<destination>{cdba74ea-fa34-4ef7-8469-d1aa94aaba65}</destination>
+			<destination>{a9ef85bc-07dd-4221-bdf3-2d8c1704d289}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f6ad375d-9332-4fd2-90d2-e2c61a5b2fa5}" />
@@ -384,12 +398,14 @@
 	<object class="MixerBusEffectChain" id="{e3fc2488-5ea3-4adb-be6a-57626610f0cb}">
 		<relationship name="effects">
 			<destination>{fb84c5e7-4d53-4743-a1f3-849339e06473}</destination>
+			<destination>{be20a224-460a-4dd4-9333-03a2c4ed61cb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b1d61e52-80b3-47a4-a17a-8d49147395cd}" />
 	<object class="MixerBusEffectChain" id="{eeaf0799-0077-47bd-8ad3-cdda49c20b1e}">
 		<relationship name="effects">
 			<destination>{0dd65bd7-7df1-439e-bc63-c633a811d06a}</destination>
+			<destination>{c1d550fb-150e-4638-bfeb-ae64abefedf2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{127ea961-992d-417e-ac2f-70bd37ebf1c5}" />
@@ -408,7 +424,39 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{eba41a33-9030-4a71-84d1-65e473a80540}" />
+	<object class="SpatialiserEffect" id="{1f435836-a3c2-40dd-8b68-46026d7e7c2e}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{cdba74ea-fa34-4ef7-8469-d1aa94aaba65}" />
+	<object class="SpatialiserEffect" id="{a9ef85bc-07dd-4221-bdf3-2d8c1704d289}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fb84c5e7-4d53-4743-a1f3-849339e06473}" />
+	<object class="SpatialiserEffect" id="{be20a224-460a-4dd4-9333-03a2c4ed61cb}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0dd65bd7-7df1-439e-bc63-c633a811d06a}" />
+	<object class="SpatialiserEffect" id="{c1d550fb-150e-4638-bfeb-ae64abefedf2}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 </objects>
