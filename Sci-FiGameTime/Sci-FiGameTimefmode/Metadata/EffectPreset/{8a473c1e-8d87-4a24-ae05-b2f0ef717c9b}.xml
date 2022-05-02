@@ -30,6 +30,9 @@
 		<property name="userPanExtent">
 			<value>187.533661</value>
 		</property>
+		<property name="userLFELevel">
+			<value>4</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{7c99b317-cc65-4f24-bb52-47cb1abe1c45}</destination>
 		</relationship>

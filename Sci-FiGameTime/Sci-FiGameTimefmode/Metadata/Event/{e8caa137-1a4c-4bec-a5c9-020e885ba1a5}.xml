@@ -1218,7 +1218,7 @@
 	</object>
 	<object class="AutomationPoint" id="{212136a7-4ea7-40e3-a93f-476042b35199}">
 		<property name="position">
-			<value>98.768472906403943</value>
+			<value>59.26108374384237</value>
 		</property>
 		<property name="value">
 			<value>3.81469727e-06</value>
@@ -1291,7 +1291,7 @@
 	</object>
 	<object class="AutomationPoint" id="{460855f7-4772-430c-8e66-e07360353d98}">
 		<property name="position">
-			<value>30.961791831357051</value>
+			<value>18.57707509881423</value>
 		</property>
 		<property name="value">
 			<value>-17</value>
@@ -1491,7 +1491,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4be2dd36-fe41-4b03-be33-f826a239cf31}">
 		<property name="position">
-			<value>99.671592775041049</value>
+			<value>59.802955665024633</value>
 		</property>
 		<property name="value">
 			<value>2400</value>
@@ -1499,7 +1499,7 @@
 	</object>
 	<object class="AutomationPoint" id="{759d4a9a-b50a-4b8f-af97-b1afd9bc5d12}">
 		<property name="position">
-			<value>0.32840722495894908</value>
+			<value>0.19704433497536944</value>
 		</property>
 		<property name="value">
 			<value>1000</value>
@@ -1579,7 +1579,7 @@
 	</object>
 	<object class="AutomationPoint" id="{531a44f3-c41d-47a3-88c6-173ba5f6fedf}">
 		<property name="position">
-			<value>100</value>
+			<value>60</value>
 		</property>
 		<property name="value">
 			<value>50</value>
@@ -1606,7 +1606,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c5728b9e-d2a2-469a-aff2-2d0af0f092a7}">
 		<property name="position">
-			<value>98.932676518883412</value>
+			<value>59.35960591133005</value>
 		</property>
 		<property name="value">
 			<value>2199.99976</value>
@@ -1646,7 +1646,7 @@
 	</object>
 	<object class="AutomationPoint" id="{48a702fb-d725-42ed-9099-91385c5a7f03}">
 		<property name="position">
-			<value>100</value>
+			<value>60</value>
 		</property>
 		<property name="value">
 			<value>4000</value>
@@ -1662,7 +1662,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a09fea29-ce2a-4f77-90d3-45b30e07032d}">
 		<property name="position">
-			<value>99.09688013136288</value>
+			<value>59.45812807881773</value>
 		</property>
 		<property name="value">
 			<value>4400</value>
