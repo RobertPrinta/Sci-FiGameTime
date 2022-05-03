@@ -156,6 +156,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a37e3160-d85b-49eb-8b97-ccc32c8dbff6}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<property name="name">
 			<value>Bass</value>
 		</property>
@@ -183,6 +186,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4f18f0ea-9b85-4775-b068-29266fbf70eb}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<property name="name">
 			<value>Choir</value>
 		</property>
@@ -241,6 +247,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{57b2e801-d15d-4d2b-95b7-0aaba64584e3}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
 			<value>Sting</value>
 		</property>
