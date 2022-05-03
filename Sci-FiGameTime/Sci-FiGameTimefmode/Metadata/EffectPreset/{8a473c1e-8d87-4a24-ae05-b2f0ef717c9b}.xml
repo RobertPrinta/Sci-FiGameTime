@@ -18,8 +18,14 @@
 		<property name="maximumDistance">
 			<value>50</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
 		<property name="soundSize">
 			<value>40</value>
+		</property>
+		<property name="minimumExtent">
+			<value>128</value>
 		</property>
 		<property name="panBlend">
 			<value>0.504999995</value>

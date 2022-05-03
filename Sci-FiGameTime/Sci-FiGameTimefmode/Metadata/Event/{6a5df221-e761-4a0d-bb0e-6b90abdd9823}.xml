@@ -600,7 +600,7 @@
 			<value>20</value>
 		</property>
 		<property name="minimumExtent">
-			<value>14</value>
+			<value>160</value>
 		</property>
 	</object>
 	<object class="ThreeEQEffect" id="{caa676b7-0625-47ae-9f0b-a62286695bf6}">
