@@ -24,6 +24,15 @@
 		<property name="initialValue">
 			<value>30</value>
 		</property>
+		<property name="seekSpeed">
+			<value>58</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>48.5</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>
 		</property>
