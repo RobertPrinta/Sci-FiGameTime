@@ -486,10 +486,10 @@
 			<value>1</value>
 		</property>
 		<property name="fftSize">
-			<value>256</value>
+			<value>580</value>
 		</property>
 		<property name="overlap">
-			<value>4.20000029</value>
+			<value>5.5999999</value>
 		</property>
 		<relationship name="automators">
 			<destination>{a81a11ad-589c-44c5-88eb-3516b936c0ca}</destination>
@@ -625,7 +625,6 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{7bdce9c3-d4da-4cde-897e-37808d943e44}</destination>
-			<destination>{d774b242-30d4-4a17-a23d-e6ae5b31355c}</destination>
 			<destination>{9007c181-95b8-420d-a7ad-022ce9814d63}</destination>
 		</relationship>
 	</object>
@@ -731,7 +730,7 @@
 			<value>-800</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>1.89999998</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{5bb2093f-e166-4898-b6ad-6b136f29e194}">
@@ -739,7 +738,7 @@
 			<value>800</value>
 		</property>
 		<property name="value">
-			<value>1.83999991</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7bdce9c3-d4da-4cde-897e-37808d943e44}">
@@ -751,14 +750,6 @@
 		</property>
 		<property name="curveShape">
 			<value>1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{d774b242-30d4-4a17-a23d-e6ae5b31355c}">
-		<property name="position">
-			<value>12.800000000000001</value>
-		</property>
-		<property name="value">
-			<value>1.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9007c181-95b8-420d-a7ad-022ce9814d63}">
