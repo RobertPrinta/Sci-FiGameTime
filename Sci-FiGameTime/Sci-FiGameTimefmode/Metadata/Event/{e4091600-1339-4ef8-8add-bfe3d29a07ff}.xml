@@ -423,6 +423,9 @@
 		<relationship name="destination">
 			<destination>{22a893ef-92bc-48b9-801d-9115416b85d4}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{523ebdc5-092f-470e-8c60-4161b5ec21ef}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{7b7ce16c-2cbc-4471-9ffe-2b44291f083c}">
 		<relationship name="effects">
@@ -555,6 +558,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fb16dde4-8c0e-420b-b1a7-6d63263b359b}" />
+	<object class="EventCondition" id="{523ebdc5-092f-470e-8c60-4161b5ec21ef}" />
 	<object class="MixerBusFader" id="{fb42f130-c8f1-45e4-8971-7a35e42a59bf}" />
 	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}">
 		<property name="minimumDistance">
