@@ -435,6 +435,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{7b7ce16c-2cbc-4471-9ffe-2b44291f083c}">
 		<relationship name="effects">
+			<destination>{c9c07dd8-2d77-4d7f-b4c7-4265d21b8d47}</destination>
 			<destination>{fb42f130-c8f1-45e4-8971-7a35e42a59bf}</destination>
 			<destination>{d5d795da-a864-4b19-8109-99e4be60ef60}</destination>
 			<destination>{bb46f035-e3f2-43f3-9d14-6e3cd917affa}</destination>
@@ -469,7 +470,6 @@
 	<object class="MixerBusEffectChain" id="{fc58334c-103f-4506-a4a8-ddc9000116be}">
 		<relationship name="effects">
 			<destination>{5ed571a5-22a1-4cb6-b175-ed9169ef6608}</destination>
-			<destination>{92a1badf-5797-4c54-9b48-edb6ba43f9d4}</destination>
 			<destination>{3b003e54-8499-4490-bf24-7248ed90d047}</destination>
 			<destination>{0741fff2-22c4-4a29-b464-abaf017c9375}</destination>
 		</relationship>
@@ -491,7 +491,6 @@
 	<object class="MixerBusEffectChain" id="{8d152111-ebd8-4353-a177-8e1b8395d27c}">
 		<relationship name="effects">
 			<destination>{e1e1dbfc-74d2-4e33-993a-47f1ccb0bb2f}</destination>
-			<destination>{49469e63-6e47-4056-ae54-507b731098aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c90ab87a-a2eb-42fe-80da-b825893fa50a}" />
@@ -516,7 +515,6 @@
 	<object class="MixerBusEffectChain" id="{64c44d20-995b-4161-bf17-bbf38601bb7e}">
 		<relationship name="effects">
 			<destination>{5bf243a6-c2f9-4dc2-bae1-fd111c1c613a}</destination>
-			<destination>{e5f18f48-4d12-45cd-953c-57cf050387f8}</destination>
 			<destination>{f2fc6b22-8a35-4845-a4bd-900603a772ab}</destination>
 		</relationship>
 	</object>
@@ -566,6 +564,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{fb16dde4-8c0e-420b-b1a7-6d63263b359b}" />
 	<object class="EventCondition" id="{523ebdc5-092f-470e-8c60-4161b5ec21ef}" />
+	<object class="LoudnessMeter" id="{c9c07dd8-2d77-4d7f-b4c7-4265d21b8d47}">
+		<property name="loudnessTarget">
+			<value>-16</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fb42f130-c8f1-45e4-8971-7a35e42a59bf}" />
 	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}">
 		<property name="minimumDistance">
@@ -581,14 +584,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5ed571a5-22a1-4cb6-b175-ed9169ef6608}" />
-	<object class="SpatialiserEffect" id="{92a1badf-5797-4c54-9b48-edb6ba43f9d4}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="ThreeEQEffect" id="{3b003e54-8499-4490-bf24-7248ed90d047}">
 		<relationship name="automators">
 			<destination>{7ae46107-2166-4a32-bbdc-f4dce698dc27}</destination>
@@ -596,7 +591,7 @@
 	</object>
 	<object class="MixerSend" id="{0741fff2-22c4-4a29-b464-abaf017c9375}">
 		<property name="inputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="automators">
 			<destination>{ff973d84-cc80-496b-95d4-c8127ed1e275}</destination>
@@ -606,23 +601,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e1e1dbfc-74d2-4e33-993a-47f1ccb0bb2f}" />
-	<object class="SpatialiserEffect" id="{49469e63-6e47-4056-ae54-507b731098aa}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{5bf243a6-c2f9-4dc2-bae1-fd111c1c613a}" />
-	<object class="SpatialiserEffect" id="{e5f18f48-4d12-45cd-953c-57cf050387f8}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="DelayEffect" id="{f2fc6b22-8a35-4845-a4bd-900603a772ab}">
 		<relationship name="automators">
 			<destination>{e13cb0ae-0957-49a1-b5e8-d18481c94e85}</destination>
