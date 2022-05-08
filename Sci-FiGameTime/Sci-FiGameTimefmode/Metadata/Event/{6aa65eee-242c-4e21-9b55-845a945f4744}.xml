@@ -225,7 +225,7 @@
 			<value>4</value>
 		</property>
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{1b9fc3f8-7fa8-4ae4-afab-f922b97e1cc6}</destination>
@@ -343,32 +343,24 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{dfb4bc56-a6ee-4123-9a8a-4af2bd6a3654}">
 		<relationship name="effects">
+			<destination>{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}</destination>
 			<destination>{e1fd51ec-646e-455b-88aa-2a63d933320f}</destination>
-			<destination>{b9e768bc-ee85-48b5-8c0b-2b43182c8b03}</destination>
+			<destination>{15bd02b1-91ed-4c8a-8b78-44a2be4d0700}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6b35a5ff-6884-47cf-ab6a-f316ed699e3c}" />
 	<object class="MixerBusFader" id="{278329ce-e700-46b4-9d7f-ae3c21f8a0cd}" />
 	<object class="SingleSound" id="{a2a6c489-6aa8-4406-a205-be008c9800a5}">
-		<property name="volume">
-			<value>-18.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{c2b4d64f-9f2c-4bf6-893a-f8f7de835b93}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{800e08c9-7e64-4f57-aca2-abfa3c77da60}">
-		<property name="volume">
-			<value>-18</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{574db680-7d3a-4cb1-866d-20038eb67b96}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f64c30d5-36d7-4550-81b9-e02df9db3287}">
-		<property name="volume">
-			<value>-18</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{231fc656-3eb7-4f19-a576-086229fd02fa}</destination>
 		</relationship>
@@ -381,25 +373,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{f93f5d25-4a08-473b-95c7-6ae715181f7a}" />
 	<object class="SingleSound" id="{a9607436-7837-4770-9b6e-6b61d90b6d84}">
-		<property name="volume">
-			<value>-18</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{b3537435-7e0a-4a85-89e2-a083e23fc6f2}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d019087b-201f-4e0b-bf39-12b2cb1b2fc2}">
-		<property name="volume">
-			<value>-18</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{841d6437-b78e-4ca3-ba81-13f908f57ebf}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{bb7c4572-b910-486a-96de-3e8cb9a8b98b}">
-		<property name="volume">
-			<value>-18.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{dd08f3a4-0820-448b-b513-08e3fff58afc}</destination>
 		</relationship>
@@ -412,25 +395,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{311e5117-9e75-4675-a41c-aeeeb1cbcb11}" />
 	<object class="SingleSound" id="{9430ccba-fe9e-4306-9e31-5e647dece770}">
-		<property name="volume">
-			<value>-18.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{1b9fc3f8-7fa8-4ae4-afab-f922b97e1cc6}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{56e2b63e-b7c3-4130-a881-fc6dfbc12a5b}">
-		<property name="volume">
-			<value>-18.5</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{da460f73-75d9-47e6-8822-1fadbbb982d0}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{e2dda08b-56bd-42fe-9f11-638eedf73b46}">
-		<property name="volume">
-			<value>-18</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{e82a94bd-acde-4ee5-b668-a2fdfae5596a}</destination>
 		</relationship>
@@ -457,8 +431,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{04a03a3a-ed40-4d45-ac33-6b50cf02c16a}" />
 	<object class="EventCondition" id="{0eb8c407-329a-4da6-8704-ae8d20d23372}" />
+	<object class="LoudnessMeter" id="{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}" />
 	<object class="MixerBusFader" id="{e1fd51ec-646e-455b-88aa-2a63d933320f}" />
-	<object class="SpatialiserEffect" id="{b9e768bc-ee85-48b5-8c0b-2b43182c8b03}" />
+	<object class="SpatialiserEffect" id="{15bd02b1-91ed-4c8a-8b78-44a2be4d0700}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{4710fa5a-1beb-4419-ba5f-ede974645dfd}" />
 	<object class="SpatialiserEffect" id="{50726685-e745-4432-a825-0d74b1782b9d}" />
 	<object class="MixerBusFader" id="{bbe272f2-6cf6-4eaf-aed3-69c5823c3344}" />
