@@ -459,9 +459,6 @@
 		</relationship>
 	</object>
 	<object class="LowpassEffect" id="{e495dd9b-632f-49ae-8836-db7a1f3ff7ed}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="cutoff">
 			<value>5000</value>
 		</property>
@@ -471,9 +468,6 @@
 	</object>
 	<object class="MixerBusFader" id="{0dbbd70a-4856-4435-a8d5-45d0e58aa276}" />
 	<object class="MixerSend" id="{354af889-ad65-4c8c-96aa-e3124df0378d}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
@@ -485,9 +479,6 @@
 		</relationship>
 	</object>
 	<object class="MixerSend" id="{dfddd63a-f8fa-4b2a-8e0b-a3ecf7490a6b}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="inputFormat">
 			<value>1</value>
 		</property>
