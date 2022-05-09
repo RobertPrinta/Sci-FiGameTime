@@ -390,7 +390,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4a4093ce-1a2c-4f27-944b-83108baad11e}">
 		<relationship name="effects">
-			<destination>{6dc1f030-3d58-45cb-84e0-7b747242ba8c}</destination>
+			<destination>{857ee7db-7f2c-4188-ae22-e92650b6d14e}</destination>
+			<destination>{86b86240-2231-472e-8ed1-b4c5b0b8106b}</destination>
 			<destination>{c3686944-7490-4e20-8b57-00857c093b8c}</destination>
 		</relationship>
 	</object>
@@ -567,13 +568,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{38470f14-7644-4c4a-8aca-9567af350e94}" />
 	<object class="EventCondition" id="{1e8f7be0-2052-4e41-a60b-57b5bc3f1ea9}" />
-	<object class="SFXReverbEffect" id="{6dc1f030-3d58-45cb-84e0-7b747242ba8c}">
-		<property name="decayTime">
-			<value>18500</value>
+	<object class="MixerSend" id="{857ee7db-7f2c-4188-ae22-e92650b6d14e}">
+		<property name="inputFormat">
+			<value>2</value>
 		</property>
-		<property name="earlyDelay">
-			<value>50</value>
+		<relationship name="mixerReturn">
+			<destination>{ecd778f0-4ced-4213-943f-3c9e90e7177b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{86b86240-2231-472e-8ed1-b4c5b0b8106b}">
+		<property name="inputFormat">
+			<value>2</value>
 		</property>
+		<relationship name="mixerReturn">
+			<destination>{2b0bea2f-d380-42a6-94a4-2d199965f637}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c3686944-7490-4e20-8b57-00857c093b8c}" />
 	<object class="AutomationPoint" id="{c5691b97-1efb-4994-9784-f45a85c8d936}">

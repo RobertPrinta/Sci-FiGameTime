@@ -264,12 +264,14 @@
 	<object class="MixerBusPanner" id="{808a5a0a-0a0c-4a11-91c7-1a2fea07cef2}" />
 	<object class="MixerBusEffectChain" id="{c0042e88-4d7a-4176-837b-f07bf7288e8e}">
 		<relationship name="effects">
+			<destination>{2f4e7482-bf26-4bdc-9f2a-2d0c7af35568}</destination>
 			<destination>{00e12d7d-7861-4a27-9f2e-33cddaf96959}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{81655f49-3b66-4880-9d11-5c528029dacb}" />
 	<object class="MixerBusEffectChain" id="{46394f79-d774-43a6-a40b-061bfb71910e}">
 		<relationship name="effects">
+			<destination>{64fa4f12-13cb-4dfa-9283-a26573e88d77}</destination>
 			<destination>{749fa88b-2d00-48d6-bd36-9d0dcc721fbd}</destination>
 		</relationship>
 	</object>
@@ -287,6 +289,38 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{39d3f827-eda3-4e90-9ff1-7b21d0b9d06c}" />
+	<object class="DistortionEffect" id="{2f4e7482-bf26-4bdc-9f2a-2d0c7af35568}">
+		<property name="level">
+			<value>0.405000001</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{f601f1c4-b0cd-41ba-9be4-740abaf4a2a8}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{00e12d7d-7861-4a27-9f2e-33cddaf96959}" />
+	<object class="DistortionEffect" id="{64fa4f12-13cb-4dfa-9283-a26573e88d77}">
+		<relationship name="modulators">
+			<destination>{072384fe-400b-441a-99c2-a9e4b9ceae71}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{749fa88b-2d00-48d6-bd36-9d0dcc721fbd}" />
+	<object class="LFOModulator" id="{f601f1c4-b0cd-41ba-9be4-740abaf4a2a8}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="rate">
+			<value>0.0199999996</value>
+		</property>
+		<property name="depth">
+			<value>24</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{072384fe-400b-441a-99c2-a9e4b9ceae71}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="amount">
+			<value>26.5</value>
+		</property>
+	</object>
 </objects>
