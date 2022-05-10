@@ -110,7 +110,6 @@
 			<destination>{e6176a0a-6d48-4664-9847-24dd817cb658}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{81e64955-9494-4046-a743-ced11eea5ed7}</destination>
 			<destination>{40d58839-5e68-4caa-b1f0-03e9c6092322}</destination>
 			<destination>{f11e3a36-3238-4fab-a59b-4eb1fb5883a5}</destination>
 			<destination>{86a6c914-df35-47dd-a73a-f5a856e693bc}</destination>
@@ -269,20 +268,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{ff0cf1f4-5df4-4213-bd39-900ff6c128f4}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{81e64955-9494-4046-a743-ced11eea5ed7}">
-		<property name="position">
-			<value>4</value>
-		</property>
-		<property name="length">
-			<value>34.5</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{a4b97bbf-6465-479b-91db-59af0ded14a6}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{5c259aa2-a91c-41ba-8c6f-366e97ccc894}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{40d58839-5e68-4caa-b1f0-03e9c6092322}">

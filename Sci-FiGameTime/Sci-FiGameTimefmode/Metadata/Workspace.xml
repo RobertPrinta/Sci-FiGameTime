@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{39497d94-ed0a-41b7-83eb-6503576c3fdc}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../sfi team 3/Team3 Sci-Fi/Assets/StreamingAssets</value>
+			<value>../../../../../../../ga21gd21-2022-0321-ld-project-team-3-2/Team3 Sci-Fi/Assets/StreamingAssets</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{dd9e0f3c-b8fd-4250-bd01-8c880620143b}</destination>
