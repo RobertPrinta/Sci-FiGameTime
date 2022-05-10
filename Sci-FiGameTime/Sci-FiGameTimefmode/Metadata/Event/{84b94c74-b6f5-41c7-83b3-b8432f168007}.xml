@@ -511,6 +511,9 @@
 		<relationship name="automators">
 			<destination>{a81a11ad-589c-44c5-88eb-3516b936c0ca}</destination>
 		</relationship>
+		<relationship name="modulators">
+			<destination>{9df01150-ce08-431e-a732-a4a5884e83bc}</destination>
+		</relationship>
 	</object>
 	<object class="DistortionEffect" id="{0b173ced-473e-4bf0-b400-b84a0a718dfc}">
 		<property name="level">
@@ -589,9 +592,23 @@
 			<destination>{00e0b1d1-f2ce-4ff3-aa07-a06c992bdeb4}</destination>
 		</relationship>
 	</object>
+	<object class="RandomizerModulator" id="{9df01150-ce08-431e-a732-a4a5884e83bc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>fftSize</value>
+		</property>
+		<property name="amount">
+			<value>21.5</value>
+		</property>
+	</object>
 	<object class="LFOModulator" id="{2a45b184-59cb-4dfc-a0b2-372e126fb684}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>level</value>
+		</property>
+		<property name="isTempoSync">
+			<value>true</value>
+		</property>
+		<property name="beats">
+			<value>16</value>
 		</property>
 		<property name="depth">
 			<value>24</value>

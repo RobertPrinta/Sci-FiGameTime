@@ -487,6 +487,7 @@
 			<destination>{398d693a-1ab2-4cdd-a340-5e66cc07d0ec}</destination>
 			<destination>{d28f18ee-761e-4476-8169-ea41078816c5}</destination>
 			<destination>{cd79da1c-bb09-4122-bd1d-db1056f9da26}</destination>
+			<destination>{4e9d11a5-978c-40f0-a303-32ef03cbad9a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{16dfbf65-c491-483b-8661-480c962c25c5}" />
@@ -530,7 +531,6 @@
 			<destination>{1b7ac663-b058-4490-a415-1f533b2f4b96}</destination>
 			<destination>{2ca8097e-608e-4444-94fe-f2ee87ddf149}</destination>
 			<destination>{8420a659-698a-4a01-b678-b6604588fdaa}</destination>
-			<destination>{03251918-3fce-4b70-b326-a21d486fbf8a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bcbeddc3-801a-4ba0-a01a-fa529bc25bcf}" />
@@ -580,7 +580,6 @@
 			<destination>{10e8bb50-37d4-43ed-8e01-1f45f9f006a1}</destination>
 			<destination>{deb2f458-081e-410a-a0f3-5c278032b54c}</destination>
 			<destination>{544f5128-3851-4bec-87f3-cccbd5841432}</destination>
-			<destination>{441d0a8b-b642-44e0-959a-49895c91cb90}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{831aa9ca-a16d-4356-9285-cc68dbef9ae9}" />
@@ -621,7 +620,6 @@
 			<destination>{53a83ee2-b5b7-41fe-9111-57b8c92d00a5}</destination>
 			<destination>{dc3d95c0-10bd-4f8b-9cf7-cc24d271cc37}</destination>
 			<destination>{e791667c-f806-4a50-95b8-9e09522c245a}</destination>
-			<destination>{5b92c0ff-23a2-42cb-9079-15b2c4508e33}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e87165ec-1a67-4459-9227-01c4a50b1da8}" />
@@ -680,6 +678,24 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cd79da1c-bb09-4122-bd1d-db1056f9da26}" />
+	<object class="SpatialiserEffect" id="{4e9d11a5-978c-40f0-a303-32ef03cbad9a}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="panBlend">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{4468c1d6-2251-4b53-8b8b-3941cbf68bdb}</destination>
+			<destination>{429687b1-37d9-4dbe-80e1-1b23cf225c26}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationPoint" id="{b34befc3-5926-483d-8589-ea7b27503dca}">
 		<property name="position">
 			<value>0</value>
@@ -791,21 +807,6 @@
 		</relationship>
 		<relationship name="mixerReturn">
 			<destination>{2b0bea2f-d380-42a6-94a4-2d199965f637}</destination>
-		</relationship>
-	</object>
-	<object class="SpatialiserEffect" id="{03251918-3fce-4b70-b326-a21d486fbf8a}">
-		<property name="overrideRange">
-			<value>true</value>
-		</property>
-		<property name="userStereoSeparation">
-			<value>172</value>
-		</property>
-		<property name="userStereoAxis">
-			<value>2</value>
-		</property>
-		<relationship name="modulators">
-			<destination>{5d5506f8-28df-4c9e-89c2-d544996ba660}</destination>
-			<destination>{8eb2014b-97a3-4589-a5ee-f630b4707f88}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationPoint" id="{3bfa5e79-d3cb-4e30-9d79-674d8affc05f}">
@@ -924,14 +925,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{544f5128-3851-4bec-87f3-cccbd5841432}" />
-	<object class="SpatialiserEffect" id="{441d0a8b-b642-44e0-959a-49895c91cb90}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>30</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{435be570-c981-4c64-9c72-56f78c74b5c6}">
 		<property name="position">
 			<value>9.1891891891891895</value>
@@ -1005,14 +998,6 @@
 	</object>
 	<object class="PitchShifterEffect" id="{dc3d95c0-10bd-4f8b-9cf7-cc24d271cc37}" />
 	<object class="MixerBusFader" id="{e791667c-f806-4a50-95b8-9e09522c245a}" />
-	<object class="SpatialiserEffect" id="{5b92c0ff-23a2-42cb-9079-15b2c4508e33}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>30</value>
-		</property>
-	</object>
 	<object class="AutomationCurve" id="{86d1eeac-b773-4e0e-8d62-d6bf16fc42c0}">
 		<relationship name="parameter">
 			<destination>{f95f2862-5b4a-4531-b21e-306b3b1f7225}</destination>
@@ -1099,6 +1084,19 @@
 			<destination>{635a78f1-9621-4c5b-b796-cc6148771298}</destination>
 		</relationship>
 	</object>
+	<object class="RandomizerModulator" id="{4468c1d6-2251-4b53-8b8b-3941cbf68bdb}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>userPanDirection</value>
+		</property>
+		<property name="amount">
+			<value>55</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{429687b1-37d9-4dbe-80e1-1b23cf225c26}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>userPanExtent</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{5fb252ed-9f3c-4897-93e5-37d998482357}">
 		<property name="position">
 			<value>29.841897233201582</value>
@@ -1163,25 +1161,6 @@
 		<relationship name="automationCurves">
 			<destination>{5edcee23-c22e-4be8-b74c-e46f5944e8ac}</destination>
 		</relationship>
-	</object>
-	<object class="LFOModulator" id="{5d5506f8-28df-4c9e-89c2-d544996ba660}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>userStereoSeparation</value>
-		</property>
-		<property name="rate">
-			<value>0.0549999997</value>
-		</property>
-		<property name="depth">
-			<value>100</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{8eb2014b-97a3-4589-a5ee-f630b4707f88}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>userStereoSeparation</value>
-		</property>
-		<property name="amount">
-			<value>23</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{9e9790da-c9ba-49bc-99f1-f83c72db2b71}">
 		<property name="position">
