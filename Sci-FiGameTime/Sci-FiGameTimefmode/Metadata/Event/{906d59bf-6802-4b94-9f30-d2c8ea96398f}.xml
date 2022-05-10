@@ -5,7 +5,7 @@
 			<value>ZoneCJ3</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9871c881-ac0f-4ecd-b376-494c5417a26f}</destination>
@@ -397,7 +397,6 @@
 			<destination>{857ee7db-7f2c-4188-ae22-e92650b6d14e}</destination>
 			<destination>{86b86240-2231-472e-8ed1-b4c5b0b8106b}</destination>
 			<destination>{c3686944-7490-4e20-8b57-00857c093b8c}</destination>
-			<destination>{7035a871-e413-4859-88e9-208ad4b08e20}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc0fc918-18c8-471d-ba83-fdea98bbfb6c}" />
@@ -586,11 +585,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c3686944-7490-4e20-8b57-00857c093b8c}" />
-	<object class="SpatialiserEffect" id="{7035a871-e413-4859-88e9-208ad4b08e20}">
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{c5691b97-1efb-4994-9784-f45a85c8d936}">
 		<property name="position">
 			<value>38</value>
