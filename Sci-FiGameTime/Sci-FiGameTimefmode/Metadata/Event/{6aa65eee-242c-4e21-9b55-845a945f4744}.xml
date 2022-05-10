@@ -5,7 +5,7 @@
 			<value>ZoneCJ1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11ccf047-5a75-41b4-97fd-23a07585ccba}</destination>
@@ -65,6 +65,9 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{62eb2ced-506c-455a-b813-04ae91b6840f}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
 			<value>50</value>
 		</property>
@@ -116,8 +119,8 @@
 		<relationship name="markers">
 			<destination>{40d58839-5e68-4caa-b1f0-03e9c6092322}</destination>
 			<destination>{f11e3a36-3238-4fab-a59b-4eb1fb5883a5}</destination>
-			<destination>{86a6c914-df35-47dd-a73a-f5a856e693bc}</destination>
 			<destination>{b9c786da-8b17-4184-b502-218b1dda7881}</destination>
+			<destination>{562f79f4-5dc0-46a7-8e48-b279f51e7c8a}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{5db202e8-5876-4316-8d74-6714b1b43a61}">
@@ -302,26 +305,6 @@
 			<destination>{e92b4382-bc92-4936-8810-7f1940cacf8d}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{86a6c914-df35-47dd-a73a-f5a856e693bc}">
-		<property name="position">
-			<value>4</value>
-		</property>
-		<property name="length">
-			<value>2</value>
-		</property>
-		<property name="name">
-			<value>Start</value>
-		</property>
-		<property name="looping">
-			<value>0</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{a4b97bbf-6465-479b-91db-59af0ded14a6}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{0ec113bf-8ac2-4e9b-8bcd-ebd5f7f56c62}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionMarker" id="{b9c786da-8b17-4184-b502-218b1dda7881}">
 		<property name="position">
 			<value>38.5</value>
@@ -333,17 +316,30 @@
 			<destination>{0ec113bf-8ac2-4e9b-8bcd-ebd5f7f56c62}</destination>
 		</relationship>
 		<relationship name="destination">
-			<destination>{86a6c914-df35-47dd-a73a-f5a856e693bc}</destination>
+			<destination>{562f79f4-5dc0-46a7-8e48-b279f51e7c8a}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{0eb8c407-329a-4da6-8704-ae8d20d23372}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{562f79f4-5dc0-46a7-8e48-b279f51e7c8a}">
+		<property name="position">
+			<value>4</value>
+		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{a4b97bbf-6465-479b-91db-59af0ded14a6}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{e92b4382-bc92-4936-8810-7f1940cacf8d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{dfb4bc56-a6ee-4123-9a8a-4af2bd6a3654}">
 		<relationship name="effects">
 			<destination>{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}</destination>
 			<destination>{e1fd51ec-646e-455b-88aa-2a63d933320f}</destination>
-			<destination>{15bd02b1-91ed-4c8a-8b78-44a2be4d0700}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6b35a5ff-6884-47cf-ab6a-f316ed699e3c}" />
@@ -462,20 +458,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e1fd51ec-646e-455b-88aa-2a63d933320f}" />
-	<object class="SpatialiserEffect" id="{15bd02b1-91ed-4c8a-8b78-44a2be4d0700}">
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>40</value>
-		</property>
-		<property name="minimumExtent">
-			<value>128</value>
-		</property>
-	</object>
 	<object class="AutomationPoint" id="{b10273a7-cb2c-4ce8-af75-7858edfdda48}">
 		<property name="position">
 			<value>4</value>
