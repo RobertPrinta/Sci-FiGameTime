@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7a87b823-8365-4968-b1c2-e5491a210c43}">
+		<property name="name">
+			<value>Vol Vehicle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c623d2ad-7006-4b98-bcad-7c0cdbb89ce8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{97edc8d9-1bfb-41e5-abcb-1d5ef6b564be}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{97edc8d9-1bfb-41e5-abcb-1d5ef6b564be}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

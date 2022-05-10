@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Master Bus</value>
 		</property>
+		<relationship name="automators">
+			<destination>{3f8e1e1e-1728-49de-803f-97557c56fda5}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{55aff6e0-5dec-417b-805d-78fc9a3cb88b}</destination>
 		</relationship>
@@ -12,6 +15,14 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{9d490cb6-6f92-4edf-aec6-817a3c11f86f}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3f8e1e1e-1728-49de-803f-97557c56fda5}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{75080d03-91c3-4551-be66-9aa31eafb78e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{55aff6e0-5dec-417b-805d-78fc9a3cb88b}">
@@ -25,10 +36,35 @@
 			<value>2</value>
 		</property>
 	</object>
+	<object class="AutomationCurve" id="{75080d03-91c3-4551-be66-9aa31eafb78e}">
+		<relationship name="parameter">
+			<destination>{713fa305-8304-42f0-8eef-208d678ecea3}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{cc66fddd-de78-4858-ba5b-3210500fdc91}</destination>
+			<destination>{81f4c0a6-6ec3-439c-a8fe-02506934c924}</destination>
+		</relationship>
+	</object>
 	<object class="LoudnessMeter" id="{6a6ebd66-2d3d-4c29-a597-908af82db0d3}">
 		<property name="loudnessTarget">
 			<value>-19</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{82323e6b-248f-4688-a2f0-fb46f0316ae2}" />
+	<object class="AutomationPoint" id="{cc66fddd-de78-4858-ba5b-3210500fdc91}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{81f4c0a6-6ec3-439c-a8fe-02506934c924}">
+		<property name="position">
+			<value>99.011299435028249</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 </objects>

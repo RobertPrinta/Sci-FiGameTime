@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{54c888c4-47a5-4860-b644-a9d40a9393cc}">
+		<property name="name">
+			<value>Vol Ambiens</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c623d2ad-7006-4b98-bcad-7c0cdbb89ce8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4b0ffb2c-30a1-411c-94b0-47f224d90e80}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4b0ffb2c-30a1-411c-94b0-47f224d90e80}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

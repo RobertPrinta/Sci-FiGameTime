@@ -7,6 +7,9 @@
 		<property name="name">
 			<value>Vehicle</value>
 		</property>
+		<relationship name="automators">
+			<destination>{7516d264-6ecb-4269-ab09-05aeaf56306e}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{022cc2ec-0460-4759-be0e-a5bc2ef2d419}</destination>
 		</relationship>
@@ -17,6 +20,14 @@
 			<destination>{5125eb80-5816-4c8f-815e-598bf036200f}</destination>
 		</relationship>
 	</object>
+	<object class="Automator" id="{7516d264-6ecb-4269-ab09-05aeaf56306e}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{61f4354a-ae8a-4f3e-8b03-55bf9e41aaf2}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{022cc2ec-0460-4759-be0e-a5bc2ef2d419}">
 		<relationship name="effects">
 			<destination>{2f6834d5-be82-46bf-9659-378f10a1517b}</destination>
@@ -24,6 +35,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{80e6b428-08de-41a9-bbfe-79d7054095d8}" />
+	<object class="AutomationCurve" id="{61f4354a-ae8a-4f3e-8b03-55bf9e41aaf2}">
+		<relationship name="parameter">
+			<destination>{97edc8d9-1bfb-41e5-abcb-1d5ef6b564be}</destination>
+		</relationship>
+	</object>
 	<object class="CompressorEffect" id="{2f6834d5-be82-46bf-9659-378f10a1517b}">
 		<relationship name="sidechains">
 			<destination>{cbb88a97-8e50-4581-be58-cad5343d439c}</destination>

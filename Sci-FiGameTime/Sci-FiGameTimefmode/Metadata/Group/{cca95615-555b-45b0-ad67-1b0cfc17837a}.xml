@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Musik</value>
 		</property>
+		<relationship name="automators">
+			<destination>{629ac4b8-5956-4884-9810-6790dbb4d6a2}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6f8c2ace-7a32-4de6-b256-fdb050221622}</destination>
 		</relationship>
@@ -12,6 +15,14 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{5125eb80-5816-4c8f-815e-598bf036200f}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{629ac4b8-5956-4884-9810-6790dbb4d6a2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{0038c0f4-3aa9-4858-b8d7-cdf557fa84a3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f8c2ace-7a32-4de6-b256-fdb050221622}">
@@ -23,6 +34,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7bf60546-1251-4629-a9d2-2075fd03aa1d}" />
+	<object class="AutomationCurve" id="{0038c0f4-3aa9-4858-b8d7-cdf557fa84a3}">
+		<relationship name="parameter">
+			<destination>{95e06279-b5c2-4272-8379-ed432a071ffb}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{1d5a2108-22aa-4716-a9e3-5036030f989b}</destination>
+			<destination>{9ea02251-dbeb-4558-8d35-3854cd80a223}</destination>
+		</relationship>
+	</object>
 	<object class="LimiterEffect" id="{4f6f8d77-6915-446d-9533-7a171d5bb33d}">
 		<property name="ceiling">
 			<value>-2.60000014</value>
@@ -41,4 +61,20 @@
 		</relationship>
 	</object>
 	<object class="Sidechain" id="{a6209448-9b1a-49e6-9e4d-a4547d1eae3f}" />
+	<object class="AutomationPoint" id="{1d5a2108-22aa-4716-a9e3-5036030f989b}">
+		<property name="position">
+			<value>0.98870056497175141</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9ea02251-dbeb-4558-8d35-3854cd80a223}">
+		<property name="position">
+			<value>99.576271186440678</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 </objects>
