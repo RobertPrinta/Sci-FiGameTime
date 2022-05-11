@@ -290,7 +290,7 @@
 	</object>
 	<object class="SingleSound" id="{e6176a0a-6d48-4664-9847-24dd817cb658}">
 		<property name="start">
-			<value>38.5</value>
+			<value>39.5</value>
 		</property>
 		<property name="length">
 			<value>4</value>
@@ -349,7 +349,7 @@
 	</object>
 	<object class="TransitionMarker" id="{b9c786da-8b17-4184-b502-218b1dda7881}">
 		<property name="position">
-			<value>38.5</value>
+			<value>39.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{a4b97bbf-6465-479b-91db-59af0ded14a6}</destination>
@@ -408,9 +408,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{f64c30d5-36d7-4550-81b9-e02df9db3287}">
-		<property name="volume">
-			<value>-8</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{231fc656-3eb7-4f19-a576-086229fd02fa}</destination>
 		</relationship>
@@ -614,7 +611,7 @@
 	</object>
 	<object class="AutomationPoint" id="{b59cba01-5bed-4357-8a1c-9a00e7cf797a}">
 		<property name="position">
-			<value>41.5</value>
+			<value>42.5</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -625,7 +622,7 @@
 	</object>
 	<object class="AutomationPoint" id="{8218848d-9b05-49b6-b713-25ae35ac36e6}">
 		<property name="position">
-			<value>42.5</value>
+			<value>43.5</value>
 		</property>
 		<property name="value">
 			<value>0</value>
