@@ -8,7 +8,7 @@
 			<value>ZoneRL2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{65868d80-0b19-4186-ad1b-4672e40a5b15}</destination>
@@ -473,7 +473,6 @@
 			<destination>{b4f51c1f-da3d-4220-9714-0a57c9d0df3e}</destination>
 			<destination>{8d201dae-d031-417d-b1e4-10ea5dd4f618}</destination>
 			<destination>{62791106-dd29-4442-859c-11b68aed3c8d}</destination>
-			<destination>{6d7a9d4e-aa89-4882-91be-d008c04a45d3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{22cb031c-2a68-456e-bc36-63ae67ca3438}" />
@@ -642,23 +641,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{62791106-dd29-4442-859c-11b68aed3c8d}" />
-	<object class="SpatialiserEffect" id="{6d7a9d4e-aa89-4882-91be-d008c04a45d3}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>20</value>
-		</property>
-		<property name="minimumExtent">
-			<value>160</value>
-		</property>
-	</object>
 	<object class="ThreeEQEffect" id="{caa676b7-0625-47ae-9f0b-a62286695bf6}">
 		<property name="midGain">
 			<value>-5.5</value>

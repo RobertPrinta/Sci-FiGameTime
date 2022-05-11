@@ -5,7 +5,7 @@
 			<value>ZoneLF2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{65868d80-0b19-4186-ad1b-4672e40a5b15}</destination>
@@ -416,7 +416,6 @@
 		<relationship name="effects">
 			<destination>{9eef5f33-e30d-4914-9ea7-b87faecf77f9}</destination>
 			<destination>{8af921d3-7b70-46e1-b708-24df88bb76ec}</destination>
-			<destination>{b0b183d8-f381-417b-ae12-5ee7e1d869d4}</destination>
 			<destination>{73746dcb-c95b-411d-b32a-d1d6db1b7c58}</destination>
 		</relationship>
 	</object>
@@ -569,14 +568,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{8af921d3-7b70-46e1-b708-24df88bb76ec}" />
-	<object class="SpatialiserEffect" id="{b0b183d8-f381-417b-ae12-5ee7e1d869d4}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="CompressorEffect" id="{73746dcb-c95b-411d-b32a-d1d6db1b7c58}">
 		<property name="gain">
 			<value>3.5</value>
