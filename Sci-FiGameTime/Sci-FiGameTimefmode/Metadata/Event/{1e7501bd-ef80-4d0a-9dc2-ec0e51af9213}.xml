@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1e7501bd-ef80-4d0a-9dc2-ec0e51af9213}">
 		<property name="name">
-			<value>Item Pick up</value>
+			<value>Quest PickUp</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

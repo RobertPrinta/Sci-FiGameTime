@@ -93,10 +93,11 @@
 			<value>4</value>
 		</property>
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-18.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{a67bd467-2a9c-475c-a6ae-757dd4c8ee33}</destination>
+			<destination>{962025b1-abbc-4f04-9159-f789f62a5e8f}</destination>
 		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{cbd9674e-9d0d-47ca-9a9e-3a29c7eb8116}</destination>
@@ -131,6 +132,14 @@
 	<object class="RandomizerModulator" id="{a67bd467-2a9c-475c-a6ae-757dd4c8ee33}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>20</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{962025b1-abbc-4f04-9159-f789f62a5e8f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>startOffset</value>
 		</property>
 		<property name="amount">
 			<value>20</value>

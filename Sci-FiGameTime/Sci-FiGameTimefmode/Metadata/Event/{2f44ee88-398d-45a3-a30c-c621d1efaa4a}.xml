@@ -8,7 +8,7 @@
 			<value>Player death</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d8d26732-90a7-47f0-b00b-11a5017220ca}</destination>
@@ -134,8 +134,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{901ebe31-a82a-4909-b4cb-aa07aed16deb}">
 		<relationship name="effects">
+			<destination>{a2d44643-edcc-465d-ade5-ca9d1d037fea}</destination>
 			<destination>{1afa26c3-a8ee-40ab-894a-ad3e67d142ff}</destination>
-			<destination>{bc00c27c-a2d0-4f86-9a5d-2485f72dae17}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{446d5f14-5346-4c75-a979-56e403678cc6}" />
@@ -154,7 +154,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cdde1e15-0756-42b8-8f86-8522b0c68474}" />
+	<object class="MixerSend" id="{a2d44643-edcc-465d-ade5-ca9d1d037fea}">
+		<property name="level">
+			<value>-17.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{ecd778f0-4ced-4213-943f-3c9e90e7177b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{1afa26c3-a8ee-40ab-894a-ad3e67d142ff}" />
-	<object class="SpatialiserEffect" id="{bc00c27c-a2d0-4f86-9a5d-2485f72dae17}" />
 	<object class="MixerBusFader" id="{76b926b5-a978-4b14-ab21-d4a5a9153f13}" />
 </objects>
