@@ -171,6 +171,9 @@
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<property name="volume">
 			<value>0.5</value>
 		</property>
@@ -206,6 +209,9 @@
 		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
 		</property>
 		<property name="volume">
 			<value>0.5</value>
@@ -245,6 +251,9 @@
 		<property name="length">
 			<value>34.59460416666667</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<property name="volume">
 			<value>0.5</value>
 		</property>
@@ -280,6 +289,9 @@
 		</property>
 		<property name="length">
 			<value>34.59460416666667</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<property name="volume">
 			<value>-2</value>

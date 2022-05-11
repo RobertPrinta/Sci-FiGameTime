@@ -147,6 +147,9 @@
 		<property name="length">
 			<value>34.5</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{0ccfa2e0-9052-42ad-8db5-dd99f18687a3}</destination>
 			<destination>{d8b79fbf-9752-4808-8b8e-179ee070a47d}</destination>
@@ -176,6 +179,9 @@
 		</property>
 		<property name="length">
 			<value>34.5</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{46585ce4-65a6-4f06-a2af-811b48794235}</destination>
@@ -207,6 +213,9 @@
 		<property name="length">
 			<value>34.5</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{342b1965-4b08-427c-8af2-2a474724cc29}</destination>
 			<destination>{be8d1205-6378-4c5e-ac63-e75d7903fecd}</destination>
@@ -233,6 +242,9 @@
 	<object class="SingleSound" id="{3be40a53-63ee-43b5-9cdd-ad2312d14215}">
 		<property name="length">
 			<value>4.5</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>12</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{c174a46a-097a-47e8-b274-fe690beaff13}</destination>
