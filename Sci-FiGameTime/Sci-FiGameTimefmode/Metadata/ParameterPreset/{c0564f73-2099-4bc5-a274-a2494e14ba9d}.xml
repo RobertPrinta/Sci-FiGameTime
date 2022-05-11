@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c0564f73-2099-4bc5-a274-a2494e14ba9d}">
+		<property name="name">
+			<value>Player Geting Hurt</value>
+		</property>
+		<relationship name="folder">
+			<destination>{aa4f8b37-8d55-4c11-85f4-8a895e1dcaaf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{fedf7bee-e4e4-41f2-8a47-8eacb4c4e1a1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{fedf7bee-e4e4-41f2-8a47-8eacb4c4e1a1}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Normal</value>
+			<value>Light</value>
+			<value>Max</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
