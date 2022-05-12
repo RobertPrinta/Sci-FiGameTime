@@ -65,6 +65,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{62eb2ced-506c-455a-b813-04ae91b6840f}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
@@ -389,8 +395,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{dfb4bc56-a6ee-4123-9a8a-4af2bd6a3654}">
 		<relationship name="effects">
-			<destination>{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}</destination>
+			<destination>{e6ea20bb-2065-402b-87fe-1c86bf32adb0}</destination>
 			<destination>{e1fd51ec-646e-455b-88aa-2a63d933320f}</destination>
+			<destination>{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6b35a5ff-6884-47cf-ab6a-f316ed699e3c}" />
@@ -508,12 +515,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{04a03a3a-ed40-4d45-ac33-6b50cf02c16a}" />
 	<object class="EventCondition" id="{0eb8c407-329a-4da6-8704-ae8d20d23372}" />
-	<object class="LoudnessMeter" id="{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}">
-		<property name="loudnessTarget">
-			<value>-16</value>
+	<object class="GainEffect" id="{e6ea20bb-2065-402b-87fe-1c86bf32adb0}">
+		<property name="gain">
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e1fd51ec-646e-455b-88aa-2a63d933320f}" />
+	<object class="LoudnessMeter" id="{4f5a0b5f-87d0-4e7a-be35-0a02f0912599}">
+		<property name="loudnessTarget">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{b10273a7-cb2c-4ce8-af75-7858edfdda48}">
 		<property name="position">
 			<value>4.3243243243243246</value>

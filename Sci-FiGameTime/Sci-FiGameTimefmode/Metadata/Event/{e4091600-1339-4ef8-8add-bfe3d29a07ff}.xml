@@ -5,7 +5,7 @@
 			<value>ZoneLF3</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9871c881-ac0f-4ecd-b376-494c5417a26f}</destination>
@@ -65,6 +65,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4beb1a2d-b836-4d73-be34-ec945753e764}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
@@ -450,10 +456,9 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{7b7ce16c-2cbc-4471-9ffe-2b44291f083c}">
 		<relationship name="effects">
-			<destination>{c9c07dd8-2d77-4d7f-b4c7-4265d21b8d47}</destination>
-			<destination>{fb42f130-c8f1-45e4-8971-7a35e42a59bf}</destination>
-			<destination>{d5d795da-a864-4b19-8109-99e4be60ef60}</destination>
 			<destination>{bb46f035-e3f2-43f3-9d14-6e3cd917affa}</destination>
+			<destination>{41bfdb28-b243-4135-ba01-e7be908d611b}</destination>
+			<destination>{fb42f130-c8f1-45e4-8971-7a35e42a59bf}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b06f806a-56bb-4dde-97b0-2a4cbb7f5834}" />
@@ -591,25 +596,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{fb16dde4-8c0e-420b-b1a7-6d63263b359b}" />
 	<object class="EventCondition" id="{523ebdc5-092f-470e-8c60-4161b5ec21ef}" />
-	<object class="LoudnessMeter" id="{c9c07dd8-2d77-4d7f-b4c7-4265d21b8d47}">
+	<object class="CompressorEffect" id="{bb46f035-e3f2-43f3-9d14-6e3cd917affa}">
+		<property name="threshold">
+			<value>-25</value>
+		</property>
+		<property name="gain">
+			<value>5</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{41bfdb28-b243-4135-ba01-e7be908d611b}">
 		<property name="loudnessTarget">
-			<value>-16</value>
+			<value>-20</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fb42f130-c8f1-45e4-8971-7a35e42a59bf}" />
-	<object class="SpatialiserEffect" id="{d5d795da-a864-4b19-8109-99e4be60ef60}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
-	<object class="CompressorEffect" id="{bb46f035-e3f2-43f3-9d14-6e3cd917affa}">
-		<property name="gain">
-			<value>0.5</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{5ed571a5-22a1-4cb6-b175-ed9169ef6608}" />
 	<object class="ThreeEQEffect" id="{3b003e54-8499-4490-bf24-7248ed90d047}">
 		<relationship name="automators">

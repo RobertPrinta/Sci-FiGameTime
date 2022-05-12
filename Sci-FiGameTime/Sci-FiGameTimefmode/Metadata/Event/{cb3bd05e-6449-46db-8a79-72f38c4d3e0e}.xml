@@ -92,6 +92,9 @@
 		<property name="length">
 			<value>25.405416666666667</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{29fef520-2921-48e8-8176-c3c4917ce3bb}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{b69c9560-6cb4-4818-83d4-8830cbb75548}</destination>
 		</relationship>
@@ -117,6 +120,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{e16caf63-5d4e-4d61-bec0-35431120e990}" />
 	<object class="MixerBusFader" id="{2c56f1c2-2be3-4af2-82fd-9d038d40dac2}" />
+	<object class="RandomizerModulator" id="{29fef520-2921-48e8-8176-c3c4917ce3bb}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>12.5</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{aff976be-f66c-4ebd-b711-11ccfcc1b172}">
 		<relationship name="effects">
 			<destination>{ef170075-c2ef-417c-854f-393e8572004f}</destination>

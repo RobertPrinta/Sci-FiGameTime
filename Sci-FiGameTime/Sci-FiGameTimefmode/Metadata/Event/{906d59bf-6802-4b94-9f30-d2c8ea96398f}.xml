@@ -65,6 +65,12 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f6088cca-2ed1-4ddb-ac02-c3015df9aac6}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
+		</property>
 		<property name="maximumDistance">
 			<value>50</value>
 		</property>
@@ -433,6 +439,8 @@
 			<destination>{857ee7db-7f2c-4188-ae22-e92650b6d14e}</destination>
 			<destination>{86b86240-2231-472e-8ed1-b4c5b0b8106b}</destination>
 			<destination>{c3686944-7490-4e20-8b57-00857c093b8c}</destination>
+			<destination>{38e3a808-6f97-4143-a3b1-fea3bea9347d}</destination>
+			<destination>{aee84e54-366a-4a95-a3fb-30e91c3ef456}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc0fc918-18c8-471d-ba83-fdea98bbfb6c}" />
@@ -626,6 +634,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c3686944-7490-4e20-8b57-00857c093b8c}" />
+	<object class="GainEffect" id="{38e3a808-6f97-4143-a3b1-fea3bea9347d}" />
+	<object class="LoudnessMeter" id="{aee84e54-366a-4a95-a3fb-30e91c3ef456}">
+		<property name="loudnessTarget">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{c5691b97-1efb-4994-9784-f45a85c8d936}">
 		<property name="position">
 			<value>38</value>
@@ -895,7 +909,7 @@
 			<value>55</value>
 		</property>
 		<property name="value">
-			<value>-26</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d16b145b-4b3b-495d-ad12-eabd03f70a50}">
@@ -927,7 +941,7 @@
 			<value>54.926108374384242</value>
 		</property>
 		<property name="value">
-			<value>-34</value>
+			<value>-19</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9483b903-2292-4be6-a18a-53ce0f7903c8}">
@@ -940,10 +954,10 @@
 	</object>
 	<object class="AutomationPoint" id="{c2ed58a3-4c49-4c6f-9959-963f7c400821}">
 		<property name="position">
-			<value>4.8275862068965516</value>
+			<value>4</value>
 		</property>
 		<property name="value">
-			<value>-1</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9587a8d3-7f13-4cdb-be8c-3e40c23e4c71}">
@@ -959,7 +973,7 @@
 			<value>54.975369458128078</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{44fb24e6-64fd-4a10-9196-6252b24ca78b}">
@@ -988,10 +1002,10 @@
 	</object>
 	<object class="AutomationPoint" id="{98c63a5d-b8ab-4452-8f38-418f4f037a6b}">
 		<property name="position">
-			<value>2.5</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-80</value>
 		</property>
 	</object>
 </objects>
