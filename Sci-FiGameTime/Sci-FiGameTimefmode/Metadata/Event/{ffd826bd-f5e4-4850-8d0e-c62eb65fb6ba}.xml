@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ffd826bd-f5e4-4850-8d0e-c62eb65fb6ba}">
 		<property name="name">
-			<value>Dialog</value>
+			<value>Ha Dialog</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

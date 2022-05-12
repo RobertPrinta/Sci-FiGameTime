@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{37fdc770-97ce-4b86-8ae0-5a9c9bb5750c}">
 		<property name="name">
-			<value>Dialog</value>
+			<value>Ka Dialog</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{e3cc33fc-d50d-433c-bf3a-c956fadb0fee}" />
 	<object class="MultiSound" id="{c2a8d8ea-e836-4cb0-b6d8-730c63c5fda5}">
 		<property name="length">
-			<value>1.5982086167800453</value>
+			<value>1.5</value>
 		</property>
 		<property name="volume">
 			<value>3</value>

@@ -8,7 +8,7 @@
 			<value>ZoneRL1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>3</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11ccf047-5a75-41b4-97fd-23a07585ccba}</destination>
@@ -77,7 +77,7 @@
 			<value>1</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0</value>
+			<value>0.400000006</value>
 		</property>
 		<property name="maximumDistance">
 			<value>50</value>
@@ -495,7 +495,6 @@
 		<relationship name="effects">
 			<destination>{6f0b97be-ec07-40b1-a4f0-ea9eaa8a4eb8}</destination>
 			<destination>{b5c6c3af-7bbf-4dc9-b0ef-a5b8ab381313}</destination>
-			<destination>{38506d09-90d8-4e4b-b654-9f8b348c902e}</destination>
 			<destination>{9e3f8ab7-0950-4f78-9f1d-39e6e941bf27}</destination>
 		</relationship>
 	</object>
@@ -733,14 +732,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b5c6c3af-7bbf-4dc9-b0ef-a5b8ab381313}" />
-	<object class="ProxyEffect" id="{38506d09-90d8-4e4b-b654-9f8b348c902e}">
-		<property name="inputFormat">
-			<value>3</value>
-		</property>
-		<relationship name="preset">
-			<destination>{8a473c1e-8d87-4a24-ae05-b2f0ef717c9b}</destination>
-		</relationship>
-	</object>
 	<object class="LoudnessMeter" id="{9e3f8ab7-0950-4f78-9f1d-39e6e941bf27}">
 		<property name="loudnessTarget">
 			<value>-16</value>
@@ -1184,6 +1175,7 @@
 		<relationship name="automationPoints">
 			<destination>{1c5c0cd1-d328-43eb-a7ab-cf031dee69e4}</destination>
 			<destination>{77e44c7a-3a31-4e21-b4c6-876408bdaafe}</destination>
+			<destination>{f458befc-27f6-472c-b8d2-011c6c68fbdf}</destination>
 		</relationship>
 	</object>
 	<object class="AutomationCurve" id="{578c393f-6bdf-42f3-8c8d-1ef1cf8cf919}">
@@ -1424,6 +1416,14 @@
 		</property>
 		<property name="value">
 			<value>3.60000014</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{f458befc-27f6-472c-b8d2-011c6c68fbdf}">
+		<property name="position">
+			<value>30.049261083743843</value>
+		</property>
+		<property name="value">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c75c96f2-8261-45b1-befd-2c08e342bb00}">

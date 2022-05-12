@@ -8,7 +8,7 @@
 			<value>ZoneLF1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11ccf047-5a75-41b4-97fd-23a07585ccba}</destination>
@@ -351,7 +351,7 @@
 			<value>6</value>
 		</property>
 		<property name="volume">
-			<value>7</value>
+			<value>10</value>
 		</property>
 		<relationship name="automators">
 			<destination>{983c3dad-12a4-4414-80d7-cfc67a62f5fc}</destination>
@@ -461,7 +461,6 @@
 			<destination>{db072f95-2e38-4648-b35e-5d9ca4ad29bf}</destination>
 			<destination>{fc87c11f-f2f0-4484-9d6e-6c02cef38ae1}</destination>
 			<destination>{2a959ece-345e-44b5-98df-0bc397934602}</destination>
-			<destination>{5c7acd7f-1c26-4b6f-a481-e021c9c56ab7}</destination>
 			<destination>{49733d42-4e94-41ff-9ed7-9ee62b1bcb1f}</destination>
 		</relationship>
 	</object>
@@ -628,6 +627,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{5e23bde6-3784-4db5-b71a-51f9d0190056}">
 		<relationship name="effects">
+			<destination>{08863979-aa65-44ff-bab1-ae854459b6d7}</destination>
 			<destination>{99be3a8f-81fb-474a-8275-18dbde9cf48f}</destination>
 			<destination>{e91f7f25-4b67-4897-8f8f-cac6791b77e6}</destination>
 		</relationship>
@@ -636,7 +636,7 @@
 	<object class="EventCondition" id="{6a96b4d7-4939-4298-85fb-558a1e3d6a33}" />
 	<object class="GainEffect" id="{db072f95-2e38-4648-b35e-5d9ca4ad29bf}">
 		<property name="gain">
-			<value>6.5</value>
+			<value>8.5</value>
 		</property>
 	</object>
 	<object class="LoudnessMeter" id="{fc87c11f-f2f0-4484-9d6e-6c02cef38ae1}">
@@ -645,26 +645,9 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2a959ece-345e-44b5-98df-0bc397934602}" />
-	<object class="SpatialiserEffect" id="{5c7acd7f-1c26-4b6f-a481-e021c9c56ab7}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2.20000005</value>
-		</property>
-		<property name="minimumExtent">
-			<value>180</value>
-		</property>
-	</object>
 	<object class="MixerSend" id="{49733d42-4e94-41ff-9ed7-9ee62b1bcb1f}">
 		<property name="inputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{ecd778f0-4ced-4213-943f-3c9e90e7177b}</destination>
@@ -779,6 +762,11 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{08863979-aa65-44ff-bab1-ae854459b6d7}">
+		<property name="gain">
+			<value>5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{99be3a8f-81fb-474a-8275-18dbde9cf48f}" />
