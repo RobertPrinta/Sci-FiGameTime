@@ -153,13 +153,13 @@
 	<object class="MixerBusFader" id="{17bd54fe-0153-42e1-be39-ce420404d6fe}" />
 	<object class="PitchShifterEffect" id="{60628950-c769-427f-8828-fc6022bbb8c6}">
 		<property name="pitch">
-			<value>0.889999986</value>
+			<value>0.930000007</value>
 		</property>
 		<property name="fftSize">
-			<value>620</value>
+			<value>480</value>
 		</property>
 		<property name="overlap">
-			<value>5</value>
+			<value>2.60000014</value>
 		</property>
 	</object>
 </objects>
