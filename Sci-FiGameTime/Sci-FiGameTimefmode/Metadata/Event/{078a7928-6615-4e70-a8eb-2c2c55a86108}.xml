@@ -163,6 +163,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{629a8818-d4fc-4fee-a909-41d064c58062}</destination>
 		</relationship>
