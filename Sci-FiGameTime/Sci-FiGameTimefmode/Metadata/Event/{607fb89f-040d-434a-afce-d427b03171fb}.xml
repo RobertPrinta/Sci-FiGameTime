@@ -99,9 +99,8 @@
 		<property name="quantizationInterval">
 			<value>2</value>
 		</property>
-		<property name="name" />
 		<property name="volume">
-			<value>2.5</value>
+			<value>7</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{665bf90c-69a0-45b3-b3bc-6ffe435bc9b7}</destination>

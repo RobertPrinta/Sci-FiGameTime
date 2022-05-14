@@ -255,9 +255,6 @@
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
-		<property name="amount">
-			<value>1</value>
-		</property>
 	</object>
 	<object class="RandomizerModulator" id="{e9a557a0-dde3-46e0-bd81-4ccdd4e71640}">
 		<property name="nameOfPropertyBeingModulated">

@@ -425,6 +425,9 @@
 		<relationship name="destination">
 			<destination>{0d9b3abd-1107-4dba-8518-6db8bc0522a2}</destination>
 		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{a9af1706-fd4f-4bfa-8cf0-f963843faa5a}</destination>
+		</relationship>
 	</object>
 	<object class="TempoMarker" id="{cd0a6604-0383-4117-9960-e508e70902e4}">
 		<property name="position">
@@ -531,6 +534,8 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{320a0cb6-262e-4f40-b213-926dd08df074}">
 		<relationship name="effects">
+			<destination>{a5bad8f0-5b12-4f0d-b712-19650da97186}</destination>
+			<destination>{b3cc2f41-a884-43b2-8395-8f25a231b0e0}</destination>
 			<destination>{c7e6a8d8-abbe-4c25-8377-6a98d4abfdf6}</destination>
 		</relationship>
 	</object>
@@ -556,6 +561,17 @@
 		</property>
 		<property name="maximum">
 			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{fedf7bee-e4e4-41f2-8a47-8eacb4c4e1a1}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{a9af1706-fd4f-4bfa-8cf0-f963843faa5a}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{fedf7bee-e4e4-41f2-8a47-8eacb4c4e1a1}</destination>
@@ -606,5 +622,15 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{099cc1ee-fa6a-42a3-8023-3015f9b78a64}" />
+	<object class="GainEffect" id="{a5bad8f0-5b12-4f0d-b712-19650da97186}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{b3cc2f41-a884-43b2-8395-8f25a231b0e0}">
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c7e6a8d8-abbe-4c25-8377-6a98d4abfdf6}" />
 </objects>
