@@ -5,7 +5,7 @@
 			<value>Ha Dialog</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{67d8b21b-ce63-4f26-8fe1-5660fd527059}</destination>
@@ -132,7 +132,6 @@
 	<object class="MixerBusEffectChain" id="{37a22a3b-8979-4fbf-befc-34a83e5af92d}">
 		<relationship name="effects">
 			<destination>{93d082db-360e-4d8f-8415-623dadecf6ef}</destination>
-			<destination>{bb7d717d-3322-4236-a8bd-d54b76f5dfb1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9824dab9-3d2e-44c2-9eb6-5bfdaf703361}" />
@@ -163,7 +162,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{8589d699-32ed-4c94-8f80-6d56ee36fc01}" />
 	<object class="MixerBusFader" id="{93d082db-360e-4d8f-8415-623dadecf6ef}" />
-	<object class="SpatialiserEffect" id="{bb7d717d-3322-4236-a8bd-d54b76f5dfb1}" />
 	<object class="MixerBusFader" id="{17bd54fe-0153-42e1-be39-ce420404d6fe}" />
 	<object class="PitchShifterEffect" id="{60628950-c769-427f-8828-fc6022bbb8c6}">
 		<property name="pitch">

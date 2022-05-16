@@ -5,7 +5,7 @@
 			<value>Ka Dialog</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{66cb8355-1af4-4c19-827e-dd736fc9990b}</destination>
@@ -118,7 +118,6 @@
 	<object class="MixerBusEffectChain" id="{cde1d173-4019-4663-ad36-37fef7ce8f61}">
 		<relationship name="effects">
 			<destination>{7c412342-73fc-42f9-b106-6da29322fabc}</destination>
-			<destination>{2969bf11-e9d0-4c0c-b0a1-edfe59e4e173}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b62bcce0-d639-4775-9eb3-ef7b964564ba}" />
@@ -155,7 +154,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{e0db2db7-7f24-440c-94ce-380c9ce61bd4}" />
 	<object class="MixerBusFader" id="{7c412342-73fc-42f9-b106-6da29322fabc}" />
-	<object class="SpatialiserEffect" id="{2969bf11-e9d0-4c0c-b0a1-edfe59e4e173}" />
 	<object class="MixerBusFader" id="{00087f9d-e951-433d-9c73-9f022f07ffab}" />
 	<object class="PitchShifterEffect" id="{d9455dbe-198c-43a1-b1bf-d44e40bcd8eb}">
 		<property name="pitch">
