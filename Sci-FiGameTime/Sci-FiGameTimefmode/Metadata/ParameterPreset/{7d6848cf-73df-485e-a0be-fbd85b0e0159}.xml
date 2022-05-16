@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{7d6848cf-73df-485e-a0be-fbd85b0e0159}">
 		<property name="note">
-			<value>0 lägsta 30 medel 60 högsta</value>
+			<value>Elevation 0 lägsta 30 medel 60 högsta</value>
 		</property>
 		<property name="name">
-			<value>Elevation Y axen</value>
+			<value>YX</value>
 		</property>
 		<relationship name="folder">
 			<destination>{aa4f8b37-8d55-4c11-85f4-8a895e1dcaaf}</destination>
