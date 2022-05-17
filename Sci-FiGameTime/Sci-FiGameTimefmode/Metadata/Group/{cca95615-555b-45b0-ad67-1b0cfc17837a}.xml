@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{cca95615-555b-45b0-ad67-1b0cfc17837a}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>Musik</value>
 		</property>
@@ -28,9 +31,9 @@
 	<object class="MixerBusEffectChain" id="{6f8c2ace-7a32-4de6-b256-fdb050221622}">
 		<relationship name="effects">
 			<destination>{4f6f8d77-6915-446d-9533-7a171d5bb33d}</destination>
-			<destination>{58922877-9c49-46e3-9909-17aa858ce0fa}</destination>
 			<destination>{beb8720f-6c42-4e7f-9eed-52330c080465}</destination>
 			<destination>{a6209448-9b1a-49e6-9e4d-a4547d1eae3f}</destination>
+			<destination>{58922877-9c49-46e3-9909-17aa858ce0fa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7bf60546-1251-4629-a9d2-2075fd03aa1d}" />
@@ -48,7 +51,6 @@
 			<value>-2.60000014</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{58922877-9c49-46e3-9909-17aa858ce0fa}" />
 	<object class="CompressorEffect" id="{beb8720f-6c42-4e7f-9eed-52330c080465}">
 		<property name="threshold">
 			<value>-27</value>
@@ -61,6 +63,7 @@
 		</relationship>
 	</object>
 	<object class="Sidechain" id="{a6209448-9b1a-49e6-9e4d-a4547d1eae3f}" />
+	<object class="MixerBusFader" id="{58922877-9c49-46e3-9909-17aa858ce0fa}" />
 	<object class="AutomationPoint" id="{1d5a2108-22aa-4716-a9e3-5036030f989b}">
 		<property name="position">
 			<value>0.98870056497175141</value>
