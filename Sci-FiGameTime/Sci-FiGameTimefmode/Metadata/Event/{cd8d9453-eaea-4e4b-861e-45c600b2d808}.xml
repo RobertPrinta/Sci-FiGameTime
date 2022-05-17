@@ -5,7 +5,7 @@
 			<value>Mufeld skream</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{580edbd1-519d-4cd8-9c3f-be574131b8d0}</destination>
@@ -125,7 +125,6 @@
 	<object class="MixerBusEffectChain" id="{38d0ceb6-b9ba-4006-b4b1-3ff96891b75d}">
 		<relationship name="effects">
 			<destination>{cac86106-ba01-4b6f-aac7-709313fd2b87}</destination>
-			<destination>{ccd6deed-604c-4557-bf67-042ab34e2306}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2d36671e-5c98-4d90-b025-a6d9910a1ded}" />
@@ -145,6 +144,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{7f83f7cd-cf61-4900-8ead-22f930607ebc}" />
 	<object class="MixerBusFader" id="{cac86106-ba01-4b6f-aac7-709313fd2b87}" />
-	<object class="SpatialiserEffect" id="{ccd6deed-604c-4557-bf67-042ab34e2306}" />
 	<object class="MixerBusFader" id="{6c0d7518-0225-4fb9-9364-197377c3e26d}" />
 </objects>

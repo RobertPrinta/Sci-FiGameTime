@@ -5,7 +5,7 @@
 			<value>Quest PickUp</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2a4228bf-86dc-4fd7-af22-4d4be8e5c1ca}</destination>
@@ -62,7 +62,11 @@
 			<destination>{c72b7573-a4dc-4c7b-887f-cbe6b0263177}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{8d9f54a6-b2f4-4e9f-b2b6-6bc01eee6ed3}" />
+	<object class="EventAutomatableProperties" id="{8d9f54a6-b2f4-4e9f-b2b6-6bc01eee6ed3}">
+		<property name="maxVoices">
+			<value>3</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e9d82498-7c92-452a-92e4-a23e4fb0618c}" />
 	<object class="GroupTrack" id="{13d98358-8ee5-492b-a9d4-0ff1fb11f740}">
 		<relationship name="modules">
@@ -133,7 +137,6 @@
 		<relationship name="effects">
 			<destination>{36d49a4c-dbe3-4f33-96f2-59c1d98fc854}</destination>
 			<destination>{a612c7ae-1822-4854-b919-a28badfff464}</destination>
-			<destination>{6e1133c5-99cb-4463-becf-a018efbfc207}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ffde0e74-9bd5-46f4-9e09-7e64517af0f9}" />
@@ -189,7 +192,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a612c7ae-1822-4854-b919-a28badfff464}" />
-	<object class="SpatialiserEffect" id="{6e1133c5-99cb-4463-becf-a018efbfc207}" />
 	<object class="AutomationPoint" id="{ef0690eb-8522-442b-86eb-0fcbe5097ea0}">
 		<property name="position">
 			<value>0.203125</value>

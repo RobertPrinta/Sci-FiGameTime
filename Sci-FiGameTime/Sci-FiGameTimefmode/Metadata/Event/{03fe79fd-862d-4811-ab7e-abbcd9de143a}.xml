@@ -8,7 +8,7 @@
 			<value>ZoneRL3</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9871c881-ac0f-4ecd-b376-494c5417a26f}</destination>
@@ -633,7 +633,6 @@
 		<relationship name="effects">
 			<destination>{4a531fd1-f4d3-4cce-a36f-f9bd7ad71bed}</destination>
 			<destination>{ffc12e46-917c-4aac-b6ee-e377e3541268}</destination>
-			<destination>{1ba760a2-365c-4c06-b394-de4d93f13e29}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{46fa2293-1491-46e7-9fda-e3f39468fba8}" />
@@ -796,14 +795,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ffc12e46-917c-4aac-b6ee-e377e3541268}" />
-	<object class="SpatialiserEffect" id="{1ba760a2-365c-4c06-b394-de4d93f13e29}">
-		<property name="minimumDistance">
-			<value>0</value>
-		</property>
-		<property name="maximumDistance">
-			<value>50</value>
-		</property>
-	</object>
 	<object class="Automator" id="{25d7a144-b55a-497a-9cd2-b77e8adea1e8}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>lowGain</value>
