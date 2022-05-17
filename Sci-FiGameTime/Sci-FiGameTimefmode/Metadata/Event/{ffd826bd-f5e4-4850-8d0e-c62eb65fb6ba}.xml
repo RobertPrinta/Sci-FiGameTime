@@ -131,6 +131,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{37a22a3b-8979-4fbf-befc-34a83e5af92d}">
 		<relationship name="effects">
+			<destination>{69ebdb14-3b0b-46e5-a0cc-599e2c1b1fbb}</destination>
 			<destination>{93d082db-360e-4d8f-8415-623dadecf6ef}</destination>
 		</relationship>
 	</object>
@@ -161,6 +162,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8589d699-32ed-4c94-8f80-6d56ee36fc01}" />
+	<object class="MixerSend" id="{69ebdb14-3b0b-46e5-a0cc-599e2c1b1fbb}">
+		<property name="level">
+			<value>-34</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{cf7bf15c-7d2b-48ee-9555-83a36192dd59}</destination>
+		</relationship>
+		<relationship name="mixerReturn">
+			<destination>{ecd778f0-4ced-4213-943f-3c9e90e7177b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{93d082db-360e-4d8f-8415-623dadecf6ef}" />
 	<object class="MixerBusFader" id="{17bd54fe-0153-42e1-be39-ce420404d6fe}" />
 	<object class="PitchShifterEffect" id="{60628950-c769-427f-8828-fc6022bbb8c6}">
@@ -172,6 +187,14 @@
 		</property>
 		<property name="overlap">
 			<value>2.60000014</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{cf7bf15c-7d2b-48ee-9555-83a36192dd59}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>level</value>
+		</property>
+		<property name="amount">
+			<value>12</value>
 		</property>
 	</object>
 </objects>

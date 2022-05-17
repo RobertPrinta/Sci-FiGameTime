@@ -736,9 +736,6 @@
 			<destination>{71a89025-3da9-456b-a864-f80c7cb88865}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{03e0f934-1f1d-4351-86b4-9c4351d2c3d5}</destination>
-			<destination>{257744aa-2ba2-42e3-91a6-8f8877a04e81}</destination>
-			<destination>{1dd5002b-1ad6-462f-94a3-9a34f5065a1e}</destination>
 			<destination>{31eb0960-8d96-429f-985b-984c787dd60b}</destination>
 			<destination>{59873981-bf93-4d19-aead-aebc759d0b2b}</destination>
 		</relationship>
@@ -759,7 +756,6 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{8b484634-1e89-4537-aaa7-7de9a307dece}</destination>
-			<destination>{8843093e-73b1-446a-b302-f5e94ae09f8f}</destination>
 			<destination>{6537dadb-6237-4298-b171-f3ed4495b347}</destination>
 			<destination>{47eee574-4358-40f5-81a2-fdeb0afb5edf}</destination>
 		</relationship>
@@ -826,42 +822,15 @@
 			<value>55.221674876847295</value>
 		</property>
 		<property name="value">
-			<value>-30</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{03e0f934-1f1d-4351-86b4-9c4351d2c3d5}">
-		<property name="position">
-			<value>0.5</value>
-		</property>
-		<property name="value">
-			<value>-2</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{257744aa-2ba2-42e3-91a6-8f8877a04e81}">
-		<property name="position">
-			<value>5.0246305418719217</value>
-		</property>
-		<property name="value">
-			<value>-10</value>
-		</property>
-		<property name="curveShape">
-			<value>-1</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{1dd5002b-1ad6-462f-94a3-9a34f5065a1e}">
-		<property name="position">
-			<value>10</value>
-		</property>
-		<property name="value">
-			<value>-52</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{31eb0960-8d96-429f-985b-984c787dd60b}">
 		<property name="position">
-			<value>55.182119205298015</value>
+			<value>60</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{59873981-bf93-4d19-aead-aebc759d0b2b}">
@@ -869,7 +838,7 @@
 			<value>30.099337748344372</value>
 		</property>
 		<property name="value">
-			<value>-54</value>
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dcc16151-fe9a-4b41-b042-ee30122e0088}">
@@ -882,13 +851,13 @@
 	</object>
 	<object class="AutomationPoint" id="{7763ed2e-7045-4caa-a2c9-93cd85bef731}">
 		<property name="position">
-			<value>5</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>-5</value>
 		</property>
 		<property name="curveShape">
-			<value>-1</value>
+			<value>-0.0923921466</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1b19b125-24a2-48dc-91f8-fd8c2aae94e3}">
@@ -896,23 +865,15 @@
 			<value>55.073891625615765</value>
 		</property>
 		<property name="value">
-			<value>-18</value>
+			<value>-75</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8b484634-1e89-4537-aaa7-7de9a307dece}">
 		<property name="position">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-24</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{8843093e-73b1-446a-b302-f5e94ae09f8f}">
-		<property name="position">
-			<value>14.97536945812808</value>
-		</property>
-		<property name="value">
-			<value>-40</value>
+			<value>-7</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6537dadb-6237-4298-b171-f3ed4495b347}">
@@ -928,7 +889,7 @@
 			<value>30.098522167487687</value>
 		</property>
 		<property name="value">
-			<value>-40</value>
+			<value>-80</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -944,10 +905,10 @@
 	</object>
 	<object class="AutomationPoint" id="{f2470621-8171-468a-b51b-af1e987afcf6}">
 		<property name="position">
-			<value>55</value>
+			<value>60</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-4</value>
 		</property>
 	</object>
 </objects>
