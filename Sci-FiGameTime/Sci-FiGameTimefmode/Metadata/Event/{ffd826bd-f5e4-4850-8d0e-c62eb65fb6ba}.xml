@@ -103,7 +103,7 @@
 			<value>-3.5</value>
 		</property>
 		<property name="pitch">
-			<value>1.20000005</value>
+			<value>8</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{1184b4cf-4578-4c99-8549-6bb51ae8633f}</destination>
@@ -135,7 +135,7 @@
 	<object class="MixerBusFader" id="{b7fd27a4-8618-46e6-8b93-d4a94d1fcb89}" />
 	<object class="SingleSound" id="{1184b4cf-4578-4c99-8549-6bb51ae8633f}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-2.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{125b9b1d-873a-46fd-96a1-59551df476b9}</destination>
