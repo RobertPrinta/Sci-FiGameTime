@@ -77,9 +77,6 @@
 		<relationship name="modules">
 			<destination>{c8782771-1ae2-4a0d-9660-dbba46932679}</destination>
 		</relationship>
-		<relationship name="markers">
-			<destination>{cbe7d403-5e9a-421e-96b7-584c2ad74813}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{62f72fa4-1666-4701-a6fd-61c91286e513}">
 		<relationship name="effectChain">
@@ -105,6 +102,9 @@
 		<property name="volume">
 			<value>-3.5</value>
 		</property>
+		<property name="pitch">
+			<value>1.20000005</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{1184b4cf-4578-4c99-8549-6bb51ae8633f}</destination>
 			<destination>{f902bb4b-5a84-41a9-8519-46818eece3d1}</destination>
@@ -123,17 +123,6 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{62f72fa4-1666-4701-a6fd-61c91286e513}</destination>
-		</relationship>
-	</object>
-	<object class="TempoMarker" id="{cbe7d403-5e9a-421e-96b7-584c2ad74813}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{b0fceb56-517c-4d49-b167-043bcf700ff5}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{7802704c-f20a-41d4-a178-f4eb94e4b3af}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{37a22a3b-8979-4fbf-befc-34a83e5af92d}">
@@ -165,7 +154,6 @@
 	<object class="MixerBusEffectChain" id="{ce177de7-a3d4-4365-840f-f7c0c432c71d}">
 		<relationship name="effects">
 			<destination>{17bd54fe-0153-42e1-be39-ce420404d6fe}</destination>
-			<destination>{60628950-c769-427f-8828-fc6022bbb8c6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8589d699-32ed-4c94-8f80-6d56ee36fc01}" />
@@ -185,17 +173,6 @@
 	</object>
 	<object class="MixerBusFader" id="{93d082db-360e-4d8f-8415-623dadecf6ef}" />
 	<object class="MixerBusFader" id="{17bd54fe-0153-42e1-be39-ce420404d6fe}" />
-	<object class="PitchShifterEffect" id="{60628950-c769-427f-8828-fc6022bbb8c6}">
-		<property name="pitch">
-			<value>0.930000007</value>
-		</property>
-		<property name="fftSize">
-			<value>480</value>
-		</property>
-		<property name="overlap">
-			<value>2.60000014</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{cf7bf15c-7d2b-48ee-9555-83a36192dd59}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>level</value>

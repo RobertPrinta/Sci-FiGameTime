@@ -116,6 +116,9 @@
 		<property name="length">
 			<value>57.152317895777159</value>
 		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
+		</property>
 		<property name="timelockedOffset">
 			<value>100</value>
 		</property>
@@ -143,6 +146,9 @@
 	<object class="SingleSound" id="{eaf1fd0c-6971-49b2-b7df-75640c95a15c}">
 		<property name="length">
 			<value>57.152317895777159</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>2</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>100</value>
