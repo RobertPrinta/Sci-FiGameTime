@@ -102,9 +102,6 @@
 		<property name="volume">
 			<value>-3.5</value>
 		</property>
-		<property name="pitch">
-			<value>8</value>
-		</property>
 		<relationship name="sounds">
 			<destination>{1184b4cf-4578-4c99-8549-6bb51ae8633f}</destination>
 			<destination>{f902bb4b-5a84-41a9-8519-46818eece3d1}</destination>

@@ -54,7 +54,7 @@
 			<destination>{560a6497-4c44-4541-800c-b609ab22a296}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5125eb80-5816-4c8f-815e-598bf036200f}</destination>
+			<destination>{cca95615-555b-45b0-ad67-1b0cfc17837a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6a929012-0437-444e-931e-de0717759263}">
@@ -244,7 +244,7 @@
 	<object class="EventCondition" id="{b5b9b314-b30d-4c8b-bc45-759968b6326f}" />
 	<object class="MixerSend" id="{26bcf96d-e295-4d77-be51-22b2962f46b4}">
 		<property name="level">
-			<value>-24</value>
+			<value>-11</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>

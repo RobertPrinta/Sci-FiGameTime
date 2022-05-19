@@ -221,6 +221,7 @@
 		<relationship name="effects">
 			<destination>{b7b30b98-348d-4f1b-b22c-df470c3f46fd}</destination>
 			<destination>{a4de7492-21d8-465f-ac4f-89fac6dfb141}</destination>
+			<destination>{b82fd23b-e9eb-4c6a-9896-9d10a72a0725}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ce540e8f-eb9f-4e11-97b6-c6a9c02cc3c6}" />
@@ -261,6 +262,11 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a4de7492-21d8-465f-ac4f-89fac6dfb141}" />
+	<object class="LoudnessMeter" id="{b82fd23b-e9eb-4c6a-9896-9d10a72a0725}">
+		<property name="loudnessTarget">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{f4f688d3-2ddc-4586-83b9-cbaf6438efba}">
 		<property name="position">
 			<value>210</value>
